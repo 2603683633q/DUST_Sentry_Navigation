@@ -317,13 +317,11 @@ void Lddc::PublishPointcloud2Data(
     publisher_ptr = std::dynamic_pointer_cast<Publisher<PointCloud2>>(GetCurrentPublisher(index));
   }
   if (kOutputToRos == output_type_) {
-    // DRIVER_INFO(*cur_node_, "PointCloud2 shape - width: %d, height: %d, point_step: %d, row_step: %d, data size: %zu",
-    //   cloud.width, cloud.height, cloud.point_step, cloud.row_step, cloud.data.size());
+    DRIVER_INFO(*cur_node_, "PointCloud2 shape - width: %d, height: %d, point_step: %d, row_step: %d, data size: %zu",
+      cloud.width, cloud.height, cloud.point_step, cloud.row_step, cloud.data.size());
     
-    // Print distance at each angle
-    if (cloud.width > 1) {
-      float min_dist = 1e6, max_dist = 0;
-      float prev_x = 0, prev_y = 0, prev_z = 0;
+    // Print each point: x, y, z, timestamp
+    if (cloud.width > 0) {
       int num_points = 0;
       
       for (uint32_t i = 0; i < cloud.width && i < cloud.data.size() / cloud.point_step; ++i) {
@@ -331,29 +329,17 @@ void Lddc::PublishPointcloud2Data(
         float x = *(reinterpret_cast<const float*>(pt_data));
         float y = *(reinterpret_cast<const float*>(pt_data + 4));
         float z = *(reinterpret_cast<const float*>(pt_data + 8));
+        double timestamp = *(reinterpret_cast<const double*>(pt_data + 18));
         
-        float dist = std::sqrt(x * x + y * y + z * z);
+        num_points++;
         
-        if (dist > 0.0001) {
-          min_dist = std::min(min_dist, dist);
-          max_dist = std::max(max_dist, dist);
-          num_points++;
-          
-          if (i > 0) {
-            float prev_dist = std::sqrt(prev_x * prev_x + prev_y * prev_y + prev_z * prev_z);
-            float angle_dist = std::sqrt(
-              (x - prev_x) * (x - prev_x) + 
-              (y - prev_y) * (y - prev_y) + 
-              (z - prev_z) * (z - prev_z)
-            );
-            if (i < 10 || i % (cloud.width / 10) == 0) {
-              //DRIVER_INFO(*cur_node_, "Point[%d] dist: %.3f, dist_to_prev: %.3f", i, dist, angle_dist);
-            }
-          }
+        // Print first 20 points and every 10% of points
+        if (i < 20 || i % (cloud.width / 10 + 1) == 0) {
+          // DRIVER_INFO(*cur_node_, "Point[%d] x=%.6f, y=%.6f, z=%.6f, timestamp=%.9f", 
+          //   i, x, y, z, timestamp);
         }
-        prev_x = x; prev_y = y; prev_z = z;
       }
-      //DRIVER_INFO(*cur_node_, "Range: min=%.3f, max=%.3f, points=%d", min_dist, max_dist, num_points);
+      DRIVER_INFO(*cur_node_, "Total points: %d", num_points);
     }
     
     publisher_ptr->publish(cloud);
