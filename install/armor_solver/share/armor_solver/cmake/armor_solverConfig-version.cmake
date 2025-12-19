@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/armor_solver/ament_cmake_core/armor_solverConfig-version.cmake

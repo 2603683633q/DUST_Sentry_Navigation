@@ -1,0 +1,9 @@
+source;share/fake_msg_publisher/hook/pythonpath.ps1
+source;share/fake_msg_publisher/hook/pythonpath.dsv
+source;share/fake_msg_publisher/hook/pythonpath.sh
+source;share/fake_msg_publisher/hook/ament_prefix_path.ps1
+source;share/fake_msg_publisher/hook/ament_prefix_path.dsv
+source;share/fake_msg_publisher/hook/ament_prefix_path.sh
+source;../../build/fake_msg_publisher/share/fake_msg_publisher/hook/pythonpath_develop.ps1
+source;../../build/fake_msg_publisher/share/fake_msg_publisher/hook/pythonpath_develop.dsv
+source;../../build/fake_msg_publisher/share/fake_msg_publisher/hook/pythonpath_develop.sh

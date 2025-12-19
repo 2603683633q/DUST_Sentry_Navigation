@@ -1,0 +1,28 @@
+[0.044s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_plugins -- -j12 -l12
+[0.294s] [ 33%] Built target ProjectileShooter
+[0.295s] [ 66%] Built target LightBarController
+[0.295s] [100%] Built target MecanumDrive2
+[0.308s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_plugins -- -j12 -l12
+[0.310s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_plugins
+[0.347s] -- Install configuration: ""
+[0.347s] -- Execute custom install script
+[0.347s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/plugins/libMecanumDrive2.so
+[0.347s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/plugins/libProjectileShooter.so
+[0.347s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/plugins/libLightBarController.so
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/environment/gazebo.dsv
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/ament_index/resource_index/package_run_dependencies/rmoss_gz_plugins
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/ament_index/resource_index/parent_prefix_path/rmoss_gz_plugins
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/environment/ament_prefix_path.sh
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/environment/ament_prefix_path.dsv
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/environment/path.sh
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/environment/path.dsv
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/local_setup.bash
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/local_setup.sh
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/local_setup.zsh
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/local_setup.dsv
+[0.348s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/package.dsv
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/ament_index/resource_index/packages/rmoss_gz_plugins
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/cmake/rmoss_gz_pluginsConfig.cmake
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/cmake/rmoss_gz_pluginsConfig-version.cmake
+[0.348s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_gz_plugins/share/rmoss_gz_plugins/package.xml
+[0.357s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_plugins

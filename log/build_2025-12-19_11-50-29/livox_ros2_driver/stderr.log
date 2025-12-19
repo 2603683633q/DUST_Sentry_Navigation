@@ -1,0 +1,85 @@
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable EIGEN_ROOT is set to:
+
+    /usr/include/eigen3
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:30 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:30 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/usr/include/apr-1.0
+apr-1
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32,
+                 from /home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25:
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp: In member function ‘std::shared_ptr<rclcpp::PublisherBase> livox_ros::Lddc::CreatePublisher(uint8_t, std::string&, uint32_t)’:
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:599:11: warning: format ‘%s’ expects argument of type ‘char*’, but argument 5 has type ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} [-Wformat=]
+  599 |           "%s publish use livox custom format", topic_name);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:599:13: note: format string is defined here
+  599 |           "%s publish use livox custom format", topic_name);
+      |            ~^
+      |             |
+      |             char*
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lds.cpp: In static member function ‘static void livox_ros::Lds::ResetLidar(livox_ros::LidarDevice*, uint8_t)’:
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lds.cpp:567:9: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct livox_ros::LidarDevice’; use assignment or value-initialization instead [-Wclass-memaccess]
+  567 |   memset(lidar, 0, sizeof(LidarDevice));
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lds.cpp:25:
+/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lds.h:166:16: note: ‘struct livox_ros::LidarDevice’ declared here
+  166 | typedef struct {
+      |                ^

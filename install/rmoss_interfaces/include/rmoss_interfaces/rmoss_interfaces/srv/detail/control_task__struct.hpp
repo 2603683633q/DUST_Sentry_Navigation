@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_interfaces/rosidl_generator_cpp/rmoss_interfaces/srv/detail/control_task__struct.hpp

@@ -1,0 +1,15 @@
+/home/rmsentry/ros_ws/install/rmoss_core/share/ament_index/resource_index/package_run_dependencies/rmoss_core
+/home/rmsentry/ros_ws/install/rmoss_core/share/ament_index/resource_index/parent_prefix_path/rmoss_core
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/environment/ament_prefix_path.sh
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/environment/ament_prefix_path.dsv
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/environment/path.sh
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/environment/path.dsv
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/local_setup.bash
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/local_setup.sh
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/local_setup.zsh
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/local_setup.dsv
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/package.dsv
+/home/rmsentry/ros_ws/install/rmoss_core/share/ament_index/resource_index/packages/rmoss_core
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/cmake/rmoss_coreConfig.cmake
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/cmake/rmoss_coreConfig-version.cmake
+/home/rmsentry/ros_ws/install/rmoss_core/share/rmoss_core/package.xml

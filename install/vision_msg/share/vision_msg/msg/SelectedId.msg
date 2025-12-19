@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/src/rm_decision/vision_msg/msg/SelectedId.msg

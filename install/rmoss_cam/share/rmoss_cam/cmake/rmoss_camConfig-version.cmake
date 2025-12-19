@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_cam/ament_cmake_core/rmoss_camConfig-version.cmake

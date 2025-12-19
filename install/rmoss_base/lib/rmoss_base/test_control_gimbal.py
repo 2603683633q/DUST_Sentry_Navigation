@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/src/rmoss_core/rmoss_base/scripts/test_control_gimbal.py

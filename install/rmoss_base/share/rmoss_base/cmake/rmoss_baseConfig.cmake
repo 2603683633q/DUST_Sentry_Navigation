@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_base/ament_cmake_core/rmoss_baseConfig.cmake

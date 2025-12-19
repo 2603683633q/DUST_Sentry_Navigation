@@ -1,0 +1,43 @@
+[0.012s] Invoking command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/livox_sdk_vendor
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.843s] -- Configuring done (0.8s)
+[0.843s] -- Generating done (0.0s)
+[0.846s] -- Build files have been written to: /home/rmsentry/ros_ws/build/livox_sdk_vendor
+[0.858s] Invoked command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/livox_sdk_vendor
+[0.865s] Invoking command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/livox_sdk_vendor -- -j12 -l12
+[0.897s] Invoked command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/livox_sdk_vendor -- -j12 -l12
+[0.898s] Invoking command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/livox_sdk_vendor
+[0.903s] -- Install configuration: ""
+[0.904s] -- Execute custom install script
+[0.904s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+[0.909s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+[0.915s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+[0.921s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+[0.924s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+[0.932s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+[0.936s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+[0.938s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+[0.942s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+[0.949s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+[0.955s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+[0.962s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+[0.967s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+[0.972s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+[0.980s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+[0.984s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+[0.991s] -- Symlinking: /home/rmsentry/ros_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml
+[1.010s] Invoked command in '/home/rmsentry/ros_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/livox_sdk_vendor

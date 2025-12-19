@@ -1,0 +1,34 @@
+[0.043s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_projectile_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_projectile_motion -- -j12 -l12
+[0.283s] [100%] Built target rmoss_projectile_motion
+[0.300s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_projectile_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_projectile_motion -- -j12 -l12
+[0.302s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_projectile_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_projectile_motion
+[0.334s] -- Install configuration: ""
+[0.334s] -- Execute custom install script
+[0.334s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/include/rmoss_projectile_motion/gaf_projectile_solver.hpp
+[0.334s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/include/rmoss_projectile_motion/gimbal_transform_tool.hpp
+[0.334s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/include/rmoss_projectile_motion/gravity_projectile_solver.hpp
+[0.335s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/include/rmoss_projectile_motion/iterative_projectile_tool.hpp
+[0.335s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/include/rmoss_projectile_motion/projectile_solver_interface.hpp
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/library_path.sh
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/library_path.dsv
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/ament_index/resource_index/package_run_dependencies/rmoss_projectile_motion
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/ament_index/resource_index/parent_prefix_path/rmoss_projectile_motion
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/ament_prefix_path.sh
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/ament_prefix_path.dsv
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/path.sh
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/environment/path.dsv
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/local_setup.bash
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/local_setup.sh
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/local_setup.zsh
+[0.336s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/local_setup.dsv
+[0.337s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/package.dsv
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/ament_index/resource_index/packages/rmoss_projectile_motion
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/ament_cmake_export_targets-extras.cmake
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/rmoss_projectile_motionConfig.cmake
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/rmoss_projectile_motionConfig-version.cmake
+[0.337s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/package.xml
+[0.337s] -- Up-to-date: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/lib/librmoss_projectile_motion.so
+[0.337s] -- Up-to-date: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/rmoss_projectile_motionExport.cmake
+[0.337s] -- Up-to-date: /home/rmsentry/ros_ws/install/rmoss_projectile_motion/share/rmoss_projectile_motion/cmake/rmoss_projectile_motionExport-noconfig.cmake
+[0.414s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_projectile_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_projectile_motion

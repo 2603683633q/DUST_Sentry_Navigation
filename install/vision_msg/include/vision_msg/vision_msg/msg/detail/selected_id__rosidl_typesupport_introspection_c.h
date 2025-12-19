@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/vision_msg/rosidl_typesupport_introspection_c/vision_msg/msg/detail/selected_id__rosidl_typesupport_introspection_c.h

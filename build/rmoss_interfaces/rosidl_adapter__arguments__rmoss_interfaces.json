@@ -1,0 +1,22 @@
+{
+  "package_name": "rmoss_interfaces",
+  "non_idl_tuples": [
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/RefereeCmd.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/GameStatus.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/RobotStatus.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/RfidStatus.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/RfidStatusArray.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/referee/ExchangeAmmon.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/Gimbal.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/GimbalCmd.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/ShootCmd.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:msg/ChassisCmd.msg",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/SetColor.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/SetMode.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/GetMode.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/GetCameraInfo.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/GetTaskStatus.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/ControlTask.srv",
+    "/home/rmsentry/ros_ws/src/rmoss_interfaces:srv/ExchangeAmmon.srv"
+  ]
+}

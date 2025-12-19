@@ -1,0 +1,671 @@
+[0.022s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_interfaces
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.321s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.708s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.710s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.721s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.766s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.806s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.839s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.548s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.426s] CMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.426s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.426s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.427s]   the cmake_policy command to set the policy and suppress this warning.
+[3.427s] 
+[3.427s] Call Stack (most recent call first):
+[3.427s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.427s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.427s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[3.427s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.427s] 
+[3.427s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.427s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.427s] CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.428s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.428s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.428s]   the cmake_policy command to set the policy and suppress this warning.
+[3.428s] 
+[3.428s] Call Stack (most recent call first):
+[3.428s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.428s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.428s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.428s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[3.428s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.428s] 
+[3.470s] CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.470s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.470s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.470s]   the cmake_policy command to set the policy and suppress this warning.
+[3.470s] 
+[3.470s] Call Stack (most recent call first):
+[3.470s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.470s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.471s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.471s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[3.471s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.471s] 
+[3.484s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.484s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.484s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.531s] -- Found PythonExtra: .so
+[3.702s] -- Configuring done (3.7s)
+[3.830s] -- Generating done (0.1s)
+[3.846s] -- Build files have been written to: /home/rmsentry/ros_ws/build/rmoss_interfaces
+[3.859s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_interfaces
+[3.860s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_interfaces -- -j12 -l12
+[3.916s] [  0%] Generating C code for ROS interfaces
+[3.941s] [  0%] Generating C++ code for ROS interfaces
+[3.950s] [  0%] Built target ament_cmake_python_symlink_rmoss_interfaces
+[4.511s] running egg_info
+[4.512s] creating rmoss_interfaces.egg-info
+[4.512s] writing rmoss_interfaces.egg-info/PKG-INFO
+[4.517s] writing dependency_links to rmoss_interfaces.egg-info/dependency_links.txt
+[4.521s] writing top-level names to rmoss_interfaces.egg-info/top_level.txt
+[4.521s] writing manifest file 'rmoss_interfaces.egg-info/SOURCES.txt'
+[4.521s] reading manifest file 'rmoss_interfaces.egg-info/SOURCES.txt'
+[4.531s] writing manifest file 'rmoss_interfaces.egg-info/SOURCES.txt'
+[4.583s] [  0%] Built target ament_cmake_python_build_rmoss_interfaces_egg
+[7.855s] [  1%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/referee_cmd__functions.c.o
+[7.858s] [  2%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/game_status__functions.c.o
+[7.861s] [  2%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/robot_status__functions.c.o
+[7.876s] [  3%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/rfid_status__functions.c.o
+[7.880s] [  4%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/rfid_status_array__functions.c.o
+[7.886s] [  4%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/exchange_ammon__functions.c.o
+[7.892s] [  5%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/gimbal__functions.c.o
+[7.907s] [  6%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/shoot_cmd__functions.c.o
+[7.912s] [  6%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/gimbal_cmd__functions.c.o
+[7.923s] [  7%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/set_color__functions.c.o
+[7.924s] [  7%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/msg/detail/chassis_cmd__functions.c.o
+[7.960s] [  8%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/set_mode__functions.c.o
+[7.973s] [  8%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/get_camera_info__functions.c.o
+[7.977s] [  9%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/get_mode__functions.c.o
+[7.994s] [ 10%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/get_task_status__functions.c.o
+[7.999s] [ 10%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/control_task__functions.c.o
+[8.011s] [ 11%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rmoss_interfaces/srv/detail/exchange_ammon__functions.c.o
+[8.148s] [ 12%] Linking C shared library librmoss_interfaces__rosidl_generator_c.so
+[8.227s] [ 12%] Built target rmoss_interfaces__rosidl_generator_c
+[8.240s] [ 13%] Generating C type support for eProsima Fast-RTPS
+[8.243s] [ 14%] Generating C introspection for ROS interfaces
+[8.253s] [ 15%] Generating C type support dispatch for ROS interfaces
+[8.265s] [ 15%] Built target rmoss_interfaces__cpp
+[8.283s] [ 16%] Generating C++ type support dispatch for ROS interfaces
+[8.294s] [ 17%] Generating C++ type support for eProsima Fast-RTPS
+[8.295s] [ 17%] Generating C++ introspection for ROS interfaces
+[10.443s] [ 17%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/referee_cmd__type_support.cpp.o
+[10.446s] [ 18%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/game_status__type_support.cpp.o
+[10.446s] [ 19%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/robot_status__type_support.cpp.o
+[10.454s] [ 19%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/rfid_status__type_support.cpp.o
+[10.454s] [ 20%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/rfid_status_array__type_support.cpp.o
+[10.475s] [ 20%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/exchange_ammon__type_support.cpp.o
+[10.478s] [ 21%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/gimbal__type_support.cpp.o
+[10.523s] [ 21%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/shoot_cmd__type_support.cpp.o
+[10.523s] [ 22%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/gimbal_cmd__type_support.cpp.o
+[10.524s] [ 23%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/set_color__type_support.cpp.o
+[10.524s] [ 24%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/msg/chassis_cmd__type_support.cpp.o
+[10.558s] [ 24%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/set_mode__type_support.cpp.o
+[10.568s] [ 25%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/get_camera_info__type_support.cpp.o
+[10.569s] [ 25%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/get_mode__type_support.cpp.o
+[10.584s] [ 26%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/control_task__type_support.cpp.o
+[10.589s] [ 27%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/get_task_status__type_support.cpp.o
+[10.612s] [ 27%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rmoss_interfaces/srv/exchange_ammon__type_support.cpp.o
+[10.690s] [ 28%] Linking CXX shared library librmoss_interfaces__rosidl_typesupport_c.so
+[10.775s] [ 28%] Built target rmoss_interfaces__rosidl_typesupport_c
+[11.079s] [ 29%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/game_status__type_support.c.o
+[11.079s] [ 29%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/referee_cmd__type_support.c.o
+[11.081s] [ 30%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/robot_status__type_support.c.o
+[11.088s] [ 30%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/rfid_status__type_support.c.o
+[11.096s] [ 31%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/rfid_status_array__type_support.c.o
+[11.100s] [ 32%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/exchange_ammon__type_support.c.o
+[11.116s] [ 32%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/gimbal__type_support.c.o
+[11.129s] [ 33%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/gimbal_cmd__type_support.c.o
+[11.157s] [ 34%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/shoot_cmd__type_support.c.o
+[11.167s] [ 34%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/msg/detail/chassis_cmd__type_support.c.o
+[11.174s] [ 35%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/set_color__type_support.c.o
+[11.214s] [ 36%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/set_mode__type_support.c.o
+[11.229s] [ 36%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/get_mode__type_support.c.o
+[11.234s] [ 36%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/get_task_status__type_support.c.o
+[11.238s] [ 37%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/get_camera_info__type_support.c.o
+[11.247s] [ 38%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/control_task__type_support.c.o
+[11.264s] [ 39%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/exchange_ammon__type_support.c.o
+[11.391s] [ 39%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/referee_cmd__type_support.cpp.o
+[11.398s] [ 40%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/game_status__type_support.cpp.o
+[11.412s] [ 41%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/robot_status__type_support.cpp.o
+[11.415s] [ 42%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/rfid_status_array__type_support.cpp.o
+[11.423s] [ 42%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/rfid_status__type_support.cpp.o
+[11.441s] [ 43%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/exchange_ammon__type_support.cpp.o
+[11.455s] [ 43%] Linking C shared library librmoss_interfaces__rosidl_typesupport_introspection_c.so
+[11.458s] [ 43%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/gimbal__type_support.cpp.o
+[11.464s] [ 44%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/gimbal_cmd__type_support.cpp.o
+[11.472s] [ 45%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/referee_cmd__type_support.cpp.o
+[11.599s] [ 45%] Built target rmoss_interfaces__rosidl_typesupport_introspection_c
+[11.610s] [ 46%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/shoot_cmd__type_support.cpp.o
+[11.901s] [ 46%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/msg/chassis_cmd__type_support.cpp.o
+[11.986s] [ 47%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/set_color__type_support.cpp.o
+[12.452s] [ 47%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/set_mode__type_support.cpp.o
+[12.459s] [ 47%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/referee_cmd__type_support_c.cpp.o
+[12.627s] [ 48%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/get_mode__type_support.cpp.o
+[12.672s] [ 49%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/get_camera_info__type_support.cpp.o
+[12.675s] [ 49%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/game_status__type_support.cpp.o
+[12.710s] [ 50%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o
+[12.742s] [ 50%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/get_task_status__type_support.cpp.o
+[12.750s] [ 51%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/game_status__type_support_c.cpp.o
+[12.930s] [ 52%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/rfid_status__type_support.cpp.o
+[12.946s] [ 53%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/control_task__type_support.cpp.o
+[13.247s] [ 54%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rmoss_interfaces/srv/exchange_ammon__type_support.cpp.o
+[13.456s] [ 54%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/rfid_status_array__type_support.cpp.o
+[13.490s] [ 55%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/robot_status__type_support_c.cpp.o
+[13.666s] [ 56%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/exchange_ammon__type_support.cpp.o
+[13.672s] [ 56%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp.o
+[14.059s] [ 57%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o
+[14.067s] [ 57%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/rfid_status__type_support_c.cpp.o
+[14.084s] [ 58%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/rfid_status_array__type_support_c.cpp.o
+[14.111s] [ 59%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/shoot_cmd__type_support.cpp.o
+[14.495s] [ 59%] Linking CXX shared library librmoss_interfaces__rosidl_typesupport_cpp.so
+[14.532s] [ 59%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/dds_fastrtps/chassis_cmd__type_support.cpp.o
+[14.665s] [ 59%] Built target rmoss_interfaces__rosidl_typesupport_cpp
+[14.691s] [ 60%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/exchange_ammon__type_support_c.cpp.o
+[14.720s] [ 61%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/set_color__type_support.cpp.o
+[14.793s] [ 61%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/gimbal__type_support_c.cpp.o
+[15.022s] [ 62%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o
+[15.231s] [ 63%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/referee_cmd__type_support.cpp.o
+[15.239s] [ 63%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/get_mode__type_support.cpp.o
+[15.312s] [ 64%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o
+[15.390s] [ 64%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/shoot_cmd__type_support_c.cpp.o
+[15.412s] [ 64%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/game_status__type_support.cpp.o
+[15.427s] [ 65%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o
+[15.592s] [ 66%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/msg/detail/chassis_cmd__type_support_c.cpp.o
+[15.594s] [ 67%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/set_color__type_support_c.cpp.o
+[15.657s] [ 67%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/set_mode__type_support_c.cpp.o
+[15.805s] [ 67%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/get_task_status__type_support.cpp.o
+[16.170s] [ 68%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/robot_status__type_support.cpp.o
+[16.239s] [ 69%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/rfid_status__type_support.cpp.o
+[16.260s] [ 70%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/control_task__type_support.cpp.o
+[16.457s] [ 71%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/srv/detail/dds_fastrtps/exchange_ammon__type_support.cpp.o
+[16.530s] [ 71%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/rfid_status_array__type_support.cpp.o
+[16.714s] [ 72%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/get_mode__type_support_c.cpp.o
+[16.895s] [ 73%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/get_camera_info__type_support_c.cpp.o
+[16.950s] [ 74%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/exchange_ammon__type_support.cpp.o
+[16.959s] [ 74%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/get_task_status__type_support_c.cpp.o
+[17.044s] [ 75%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/control_task__type_support_c.cpp.o
+[17.276s] [ 76%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rmoss_interfaces/srv/detail/exchange_ammon__type_support_c.cpp.o
+[17.455s] [ 77%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/gimbal__type_support.cpp.o
+[17.518s] [ 77%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o
+[17.540s] [ 78%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/shoot_cmd__type_support.cpp.o
+[17.566s] [ 78%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/chassis_cmd__type_support.cpp.o
+[17.582s] [ 79%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/set_color__type_support.cpp.o
+[17.737s] [ 80%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/set_mode__type_support.cpp.o
+[18.186s] [ 80%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/get_mode__type_support.cpp.o
+[18.208s] [ 81%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/get_camera_info__type_support.cpp.o
+[18.306s] [ 82%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/get_task_status__type_support.cpp.o
+[18.334s] [ 82%] Linking CXX shared library librmoss_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.416s] [ 82%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/control_task__type_support.cpp.o
+[18.571s] [ 83%] Building CXX object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rmoss_interfaces/srv/detail/exchange_ammon__type_support.cpp.o
+[18.758s] [ 83%] Linking CXX shared library librmoss_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.806s] [ 83%] Built target rmoss_interfaces__rosidl_typesupport_fastrtps_c
+[18.888s] [ 83%] Built target rmoss_interfaces__rosidl_typesupport_fastrtps_cpp
+[19.828s] [ 84%] Linking CXX shared library librmoss_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.979s] [ 84%] Built target rmoss_interfaces__rosidl_typesupport_introspection_cpp
+[19.992s] [ 84%] Built target rmoss_interfaces
+[20.016s] [ 85%] Generating Python code for ROS interfaces
+[25.486s] [ 85%] Built target rmoss_interfaces__py
+[25.505s] [ 85%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_referee_cmd_s.c.o
+[25.512s] [ 87%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_robot_status_s.c.o
+[25.512s] [ 87%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_rfid_status_s.c.o
+[25.512s] [ 87%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_exchange_ammon_s.c.o
+[25.512s] [ 87%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_game_status_s.c.o
+[25.513s] [ 88%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_gimbal_s.c.o
+[25.514s] [ 89%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_rfid_status_array_s.c.o
+[25.517s] [ 90%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_gimbal_cmd_s.c.o
+[25.530s] [ 90%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_shoot_cmd_s.c.o
+[25.701s] [ 90%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_set_mode_s.c.o
+[25.714s] [ 91%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_get_mode_s.c.o
+[25.746s] [ 92%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_get_camera_info_s.c.o
+[25.769s] [ 92%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_get_task_status_s.c.o
+[25.770s] [ 93%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_set_color_s.c.o
+[25.774s] [ 94%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/msg/_chassis_cmd_s.c.o
+[25.794s] [ 94%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_exchange_ammon_s.c.o
+[25.802s] [ 95%] Building C object CMakeFiles/rmoss_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rmoss_interfaces/srv/_control_task_s.c.o
+[26.018s] [ 96%] Linking C shared library rosidl_generator_py/rmoss_interfaces/librmoss_interfaces__rosidl_generator_py.so
+[26.067s] [ 96%] Built target rmoss_interfaces__rosidl_generator_py
+[26.084s] [ 97%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_c.c.o
+[26.086s] [ 98%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[26.089s] [ 99%] Building C object CMakeFiles/rmoss_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[26.287s] [ 99%] Linking C shared library rosidl_generator_py/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.369s] [ 99%] Built target rmoss_interfaces__rosidl_typesupport_c__pyext
+[26.377s] [100%] Linking C shared library rosidl_generator_py/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.440s] [100%] Linking C shared library rosidl_generator_py/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.445s] [100%] Built target rmoss_interfaces__rosidl_typesupport_introspection_c__pyext
+[26.496s] [100%] Built target rmoss_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[26.518s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_interfaces -- -j12 -l12
+[26.519s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_interfaces
+[26.522s] -- Install configuration: ""
+[26.523s] -- Execute custom install script
+[26.523s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/ament_index/resource_index/rosidl_interfaces/rmoss_interfaces
+[26.530s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/chassis_cmd.h
+[26.536s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__functions.h
+[26.540s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__struct.h
+[26.545s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__type_support.h
+[26.550s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__functions.h
+[26.558s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__struct.h
+[26.569s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__type_support.h
+[26.578s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__functions.h
+[26.583s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__struct.h
+[26.588s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__type_support.h
+[26.594s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__functions.h
+[26.606s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__struct.h
+[26.614s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__type_support.h
+[26.622s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__functions.h
+[26.630s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__struct.h
+[26.634s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__type_support.h
+[26.639s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__functions.h
+[26.644s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__struct.h
+[26.651s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__type_support.h
+[26.654s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__functions.h
+[26.660s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__struct.h
+[26.665s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__type_support.h
+[26.672s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__functions.h
+[26.687s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__struct.h
+[26.689s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__type_support.h
+[26.697s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__functions.h
+[26.706s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__struct.h
+[26.715s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__type_support.h
+[26.732s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__functions.h
+[26.737s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__struct.h
+[26.743s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__type_support.h
+[26.751s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/exchange_ammon.h
+[26.757s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/game_status.h
+[26.761s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/gimbal.h
+[26.766s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/gimbal_cmd.h
+[26.771s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/referee_cmd.h
+[26.778s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rfid_status.h
+[26.783s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rfid_status_array.h
+[26.790s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/robot_status.h
+[26.792s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rosidl_generator_c__visibility_control.h
+[26.797s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/shoot_cmd.h
+[26.801s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/control_task.h
+[26.806s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__functions.h
+[26.816s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__struct.h
+[26.821s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__type_support.h
+[26.827s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__functions.h
+[26.833s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__struct.h
+[26.838s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__type_support.h
+[26.848s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__functions.h
+[26.853s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__struct.h
+[26.858s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__type_support.h
+[26.870s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__functions.h
+[26.872s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__struct.h
+[26.878s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__type_support.h
+[26.886s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__functions.h
+[26.894s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__struct.h
+[26.902s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__type_support.h
+[26.907s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__functions.h
+[26.917s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__struct.h
+[26.924s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__type_support.h
+[26.931s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__functions.h
+[26.939s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__struct.h
+[26.945s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__type_support.h
+[26.953s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/exchange_ammon.h
+[26.964s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_camera_info.h
+[26.972s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_mode.h
+[26.978s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_task_status.h
+[26.985s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/set_color.h
+[26.992s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/set_mode.h
+[27.000s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/library_path.sh
+[27.007s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/library_path.dsv
+[27.013s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h
+[27.023s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__rosidl_typesupport_fastrtps_c.h
+[27.029s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__rosidl_typesupport_fastrtps_c.h
+[27.035s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_c.h
+[27.043s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[27.052s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__rosidl_typesupport_fastrtps_c.h
+[27.060s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__rosidl_typesupport_fastrtps_c.h
+[27.069s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__rosidl_typesupport_fastrtps_c.h
+[27.073s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[27.081s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_c.h
+[27.093s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.096s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__rosidl_typesupport_fastrtps_c.h
+[27.101s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__rosidl_typesupport_fastrtps_c.h
+[27.111s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[27.111s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__rosidl_typesupport_fastrtps_c.h
+[27.116s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__rosidl_typesupport_fastrtps_c.h
+[27.121s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h
+[27.126s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[27.136s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/chassis_cmd.hpp
+[27.141s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__builder.hpp
+[27.155s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__struct.hpp
+[27.163s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__traits.hpp
+[27.176s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__type_support.hpp
+[27.176s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__builder.hpp
+[27.185s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__struct.hpp
+[27.193s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__traits.hpp
+[27.198s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__type_support.hpp
+[27.207s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__builder.hpp
+[27.209s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__struct.hpp
+[27.216s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__traits.hpp
+[27.217s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__type_support.hpp
+[27.222s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__builder.hpp
+[27.226s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__struct.hpp
+[27.231s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__traits.hpp
+[27.235s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__type_support.hpp
+[27.244s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[27.250s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[27.256s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[27.271s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__type_support.hpp
+[27.279s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__builder.hpp
+[27.284s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__struct.hpp
+[27.288s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__traits.hpp
+[27.293s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__type_support.hpp
+[27.300s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__builder.hpp
+[27.305s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__struct.hpp
+[27.309s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__traits.hpp
+[27.315s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__type_support.hpp
+[27.321s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__builder.hpp
+[27.325s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__struct.hpp
+[27.329s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__traits.hpp
+[27.334s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__type_support.hpp
+[27.341s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__builder.hpp
+[27.352s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__struct.hpp
+[27.357s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__traits.hpp
+[27.361s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__type_support.hpp
+[27.366s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__builder.hpp
+[27.370s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__struct.hpp
+[27.376s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__traits.hpp
+[27.379s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__type_support.hpp
+[27.391s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/exchange_ammon.hpp
+[27.398s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/game_status.hpp
+[27.405s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/gimbal.hpp
+[27.411s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/gimbal_cmd.hpp
+[27.416s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/referee_cmd.hpp
+[27.422s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rfid_status.hpp
+[27.426s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rfid_status_array.hpp
+[27.431s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/robot_status.hpp
+[27.439s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.442s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/shoot_cmd.hpp
+[27.454s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/control_task.hpp
+[27.460s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__builder.hpp
+[27.465s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__struct.hpp
+[27.474s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__traits.hpp
+[27.476s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__type_support.hpp
+[27.482s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__builder.hpp
+[27.486s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__struct.hpp
+[27.491s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__traits.hpp
+[27.496s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__type_support.hpp
+[27.501s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__builder.hpp
+[27.505s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__struct.hpp
+[27.510s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__traits.hpp
+[27.515s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__type_support.hpp
+[27.520s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__builder.hpp
+[27.525s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__struct.hpp
+[27.533s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__traits.hpp
+[27.534s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__type_support.hpp
+[27.538s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__builder.hpp
+[27.543s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__struct.hpp
+[27.548s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__traits.hpp
+[27.553s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__type_support.hpp
+[27.558s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__builder.hpp
+[27.563s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__struct.hpp
+[27.568s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__traits.hpp
+[27.577s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__type_support.hpp
+[27.579s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__builder.hpp
+[27.584s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__struct.hpp
+[27.589s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__traits.hpp
+[27.595s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__type_support.hpp
+[27.600s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/exchange_ammon.hpp
+[27.607s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_camera_info.hpp
+[27.612s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_mode.hpp
+[27.618s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/get_task_status.hpp
+[27.624s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/set_color.hpp
+[27.629s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/set_mode.hpp
+[27.635s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[27.641s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__rosidl_typesupport_fastrtps_cpp.hpp
+[27.646s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.652s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+[27.659s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[27.662s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[27.667s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.672s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[27.677s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.685s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[27.687s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.694s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__rosidl_typesupport_fastrtps_cpp.hpp
+[27.698s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__rosidl_typesupport_fastrtps_cpp.hpp
+[27.704s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[27.710s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.714s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.719s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp
+[27.724s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.730s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h
+[27.735s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__rosidl_typesupport_introspection_c.h
+[27.740s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__rosidl_typesupport_introspection_c.h
+[27.744s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_c.h
+[27.752s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[27.754s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__rosidl_typesupport_introspection_c.h
+[27.760s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__rosidl_typesupport_introspection_c.h
+[27.768s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__rosidl_typesupport_introspection_c.h
+[27.770s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[27.775s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_c.h
+[27.781s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.787s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__rosidl_typesupport_introspection_c.h
+[27.792s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__rosidl_typesupport_introspection_c.h
+[27.797s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[27.802s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__rosidl_typesupport_introspection_c.h
+[27.810s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__rosidl_typesupport_introspection_c.h
+[27.812s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_c.h
+[27.816s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[27.822s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp
+[27.827s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/exchange_ammon__rosidl_typesupport_introspection_cpp.hpp
+[27.833s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/game_status__rosidl_typesupport_introspection_cpp.hpp
+[27.843s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_cpp.hpp
+[27.850s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[27.858s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/referee_cmd__rosidl_typesupport_introspection_cpp.hpp
+[27.862s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status__rosidl_typesupport_introspection_cpp.hpp
+[27.867s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/rfid_status_array__rosidl_typesupport_introspection_cpp.hpp
+[27.871s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[27.876s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_cpp.hpp
+[27.883s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/control_task__rosidl_typesupport_introspection_cpp.hpp
+[27.889s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/exchange_ammon__rosidl_typesupport_introspection_cpp.hpp
+[27.896s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[27.901s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.906s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/get_task_status__rosidl_typesupport_introspection_cpp.hpp
+[27.911s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp
+[27.918s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/include/rmoss_interfaces/rmoss_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.921s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/pythonpath.sh
+[27.926s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/pythonpath.dsv
+[27.932s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces-0.9.0-py3.10.egg-info/PKG-INFO
+[27.943s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces-0.9.0-py3.10.egg-info/SOURCES.txt
+[27.948s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces-0.9.0-py3.10.egg-info/dependency_links.txt
+[27.954s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces-0.9.0-py3.10.egg-info/top_level.txt
+[27.962s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/__init__.py
+[27.969s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_c.c
+[27.977s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.984s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/_rmoss_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[27.991s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/librmoss_interfaces__rosidl_generator_py.so
+[28.002s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/__init__.py
+[28.011s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_chassis_cmd.py
+[28.019s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_chassis_cmd_s.c
+[28.030s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_exchange_ammon.py
+[28.036s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_exchange_ammon_s.c
+[28.043s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_game_status.py
+[28.048s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_game_status_s.c
+[28.057s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal.py
+[28.064s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal_cmd.py
+[28.072s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal_cmd_s.c
+[28.081s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal_s.c
+[28.088s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_referee_cmd.py
+[28.108s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_referee_cmd_s.c
+[28.118s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status.py
+[28.126s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status_array.py
+[28.147s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status_array_s.c
+[28.151s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status_s.c
+[28.160s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_robot_status.py
+[28.167s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_robot_status_s.c
+[28.177s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_shoot_cmd.py
+[28.186s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_shoot_cmd_s.c
+[28.193s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[28.201s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[28.213s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[28.219s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/__init__.py
+[28.227s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_control_task.py
+[28.234s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_control_task_s.c
+[28.242s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_exchange_ammon.py
+[28.249s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_exchange_ammon_s.c
+[28.257s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_camera_info.py
+[28.269s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_camera_info_s.c
+[28.275s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_mode.py
+[28.282s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_mode_s.c
+[28.304s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_task_status.py
+[28.308s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_task_status_s.c
+[28.314s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_color.py
+[28.321s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_color_s.c
+[28.331s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_mode.py
+[28.335s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_mode_s.c
+[28.342s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[28.343s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[28.344s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[28.344s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/RefereeCmd.idl
+[28.354s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/GameStatus.idl
+[28.358s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/RobotStatus.idl
+[28.365s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/RfidStatus.idl
+[28.370s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/RfidStatusArray.idl
+[28.376s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/ExchangeAmmon.idl
+[28.382s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/Gimbal.idl
+[28.390s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/GimbalCmd.idl
+[28.395s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/ShootCmd.idl
+[28.409s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/ChassisCmd.idl
+[28.415s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetColor.idl
+[28.422s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetMode.idl
+[28.426s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetMode.idl
+[28.437s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetCameraInfo.idl
+[28.440s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetTaskStatus.idl
+[28.449s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ControlTask.idl
+[28.464s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ExchangeAmmon.idl
+[28.475s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/RefereeCmd.msg
+[28.478s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/GameStatus.msg
+[28.486s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/RobotStatus.msg
+[28.493s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/RfidStatus.msg
+[28.502s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/RfidStatusArray.msg
+[28.508s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/referee/ExchangeAmmon.msg
+[28.515s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/Gimbal.msg
+[28.523s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/GimbalCmd.msg
+[28.530s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/ShootCmd.msg
+[28.540s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/msg/ChassisCmd.msg
+[28.543s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetColor.srv
+[28.550s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetColor_Request.msg
+[28.560s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetColor_Response.msg
+[28.563s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetMode.srv
+[28.573s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetMode_Request.msg
+[28.579s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/SetMode_Response.msg
+[28.590s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetMode.srv
+[28.599s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetMode_Request.msg
+[28.611s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetMode_Response.msg
+[28.620s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetCameraInfo.srv
+[28.624s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetCameraInfo_Request.msg
+[28.630s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetCameraInfo_Response.msg
+[28.636s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetTaskStatus.srv
+[28.642s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetTaskStatus_Request.msg
+[28.650s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/GetTaskStatus_Response.msg
+[28.657s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ControlTask.srv
+[28.664s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ControlTask_Request.msg
+[28.671s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ControlTask_Response.msg
+[28.678s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ExchangeAmmon.srv
+[28.689s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ExchangeAmmon_Request.msg
+[28.692s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/srv/ExchangeAmmon_Response.msg
+[28.708s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/ament_index/resource_index/package_run_dependencies/rmoss_interfaces
+[28.716s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/ament_index/resource_index/parent_prefix_path/rmoss_interfaces
+[28.723s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/ament_prefix_path.sh
+[28.730s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/ament_prefix_path.dsv
+[28.738s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/path.sh
+[28.745s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/environment/path.dsv
+[28.757s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/local_setup.bash
+[28.760s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/local_setup.sh
+[28.767s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/local_setup.zsh
+[28.775s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/local_setup.dsv
+[28.781s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/package.dsv
+[28.788s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/ament_index/resource_index/packages/rmoss_interfaces
+[28.795s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rosidl_cmake-extras.cmake
+[28.802s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.809s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.817s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[28.824s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[28.833s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.842s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.855s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfacesConfig.cmake
+[28.861s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfacesConfig-version.cmake
+[28.868s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/package.xml
+[28.876s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_generator_c.so
+[28.878s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_generator_c.so" to ""
+[28.881s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_fastrtps_c.so
+[28.882s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[28.883s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[28.891s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.891s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_introspection_c.so
+[28.892s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[28.892s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_c.so
+[28.893s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_c.so" to ""
+[28.893s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_introspection_cpp.so
+[28.894s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[28.894s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_cpp.so
+[28.895s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_typesupport_cpp.so" to ""
+[29.003s] Listing '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces'...
+[29.003s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/__init__.py'...
+[29.003s] Listing '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg'...
+[29.003s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/__init__.py'...
+[29.003s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_chassis_cmd.py'...
+[29.003s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_exchange_ammon.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_game_status.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_gimbal_cmd.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_referee_cmd.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_rfid_status_array.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_robot_status.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/msg/_shoot_cmd.py'...
+[29.004s] Listing '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/__init__.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_control_task.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_exchange_ammon.py'...
+[29.004s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_camera_info.py'...
+[29.005s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_mode.py'...
+[29.005s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_get_task_status.py'...
+[29.005s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_color.py'...
+[29.005s] Compiling '/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages/rmoss_interfaces/srv/_set_mode.py'...
+[29.007s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_generator_py.so
+[29.009s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_interfaces/lib/librmoss_interfaces__rosidl_generator_py.so" to ""
+[29.015s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_generator_cExport.cmake
+[29.015s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_generator_cExport-noconfig.cmake
+[29.015s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[29.015s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.015s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_generator_cppExport.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_cExport.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[29.016s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[29.017s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.017s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_cppExport.cmake
+[29.018s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/rmoss_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[29.022s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_generator_pyExport.cmake
+[29.023s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake/export_rmoss_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[29.024s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_interfaces

@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/vision_msg/rosidl_generator_py/vision_msg/msg/_selected_id_s.c

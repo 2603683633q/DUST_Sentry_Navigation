@@ -1,0 +1,179 @@
+[0.018s] Invoking command in '/home/rmsentry/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/point_lio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/point_lio
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.293s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.502s] -- Detecting CXX compiler ABI info
+[0.626s] -- Detecting CXX compiler ABI info - done
+[0.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.662s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.674s] -- Processor number:  12
+[0.674s] -- core for MP:  3
+[0.676s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.892s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.973s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.004s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.081s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.088s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.099s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.198s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.345s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.389s] -- Found FastRTPS: /opt/ros/humble/include
+[1.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.556s] -- Found Threads: TRUE
+[1.637s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.642s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.703s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.758s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.792s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.833s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.907s] CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.907s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.907s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.907s]   cmake_policy command to set the policy and suppress this warning.
+[1.908s] 
+[1.910s]   CMake variable EIGEN_ROOT is set to:
+[1.910s] 
+[1.910s]     /usr/include/eigen3
+[1.910s] 
+[1.910s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.910s]   .cmake module might still use it.
+[1.910s] Call Stack (most recent call first):
+[1.910s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.910s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.910s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.910s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.910s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.910s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[1.910s]   CMakeLists.txt:49 (find_package)
+[1.910s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.910s] 
+[1.913s] -- Checking for module 'eigen3'
+[1.932s] --   Found eigen3, version 3.4.0
+[1.974s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.975s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.010s] CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[2.011s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.011s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.011s]   cmake_policy command to set the policy and suppress this warning.
+[2.011s] 
+[2.011s]   CMake variable FLANN_ROOT is set to:
+[2.011s] 
+[2.011s]     /usr
+[2.011s] 
+[2.011s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.011s]   .cmake module might still use it.
+[2.011s] Call Stack (most recent call first):
+[2.011s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[2.011s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[2.011s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[2.011s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.011s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.011s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.011s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[2.011s]   CMakeLists.txt:49 (find_package)
+[2.011s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.017s] 
+[2.035s] -- Checking for module 'flann'
+[2.055s] --   Found flann, version 1.9.1
+[2.125s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[2.125s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.645s] -- Checking for module 'libusb-1.0'
+[4.659s] --   Found libusb-1.0, version 1.0.26
+[4.730s] -- Found libusb: /usr/local/lib/libusb-1.0.so
+[4.732s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.821s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.439s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.455s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.468s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.214s] -- Found Qhull version 8.0.2
+[6.784s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.378s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[7.379s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[7.386s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[7.395s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[7.396s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[7.396s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[7.403s] -- Found PCL_2D: /usr/include/pcl-1.12
+[7.403s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[7.410s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[7.418s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[7.418s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[7.425s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[7.433s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[7.441s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[7.451s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[7.458s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[7.466s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[7.472s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[7.474s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[7.478s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[7.480s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[7.482s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[7.484s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[7.487s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[7.492s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[7.565s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.565s] -- Found Eigen3: TRUE (found version "3.4.0")
+[7.565s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.894s] -- Found livox_ros_driver2: 1.1.0 (/home/rmsentry/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[9.002s] CMake Warning (dev) at CMakeLists.txt:56 (find_package):
+[9.002s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[9.002s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[9.002s]   the cmake_policy command to set the policy and suppress this warning.
+[9.002s] 
+[9.002s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.002s] 
+[9.103s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12")
+[9.324s] -- Configuring done (9.3s)
+[9.444s] -- Generating done (0.1s)
+[9.482s] -- Build files have been written to: /home/rmsentry/ros_ws/build/point_lio
+[9.533s] Invoked command in '/home/rmsentry/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/point_lio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/point_lio
+[9.534s] Invoking command in '/home/rmsentry/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/point_lio -- -j12 -l12
+[9.623s] [ 14%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o
+[79.807s] [ 28%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/IMU_Processing.cpp.o
+[87.594s] [ 42%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o
+[87.594s] [ 57%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/preprocess.cpp.o
+[87.595s] [ 71%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o
+[87.595s] [ 85%] Building CXX object CMakeFiles/pointlio_mapping.dir/src/li_initialization.cpp.o
+[104.362s] [100%] Linking CXX executable pointlio_mapping
+[104.954s] [100%] Built target pointlio_mapping
+[104.957s] Invoked command in '/home/rmsentry/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/point_lio -- -j12 -l12
+[104.958s] Invoking command in '/home/rmsentry/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/point_lio
+[104.960s] -- Install configuration: "Release"
+[104.961s] -- Execute custom install script
+[104.961s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/lib/point_lio/pointlio_mapping
+[104.963s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/config/avia.yaml
+[104.966s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/config/horizon.yaml
+[104.969s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/config/mid360.yaml
+[104.971s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/config/ouster64.yaml
+[104.973s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/config/velody16.yaml
+[104.976s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/launch/point_lio.launch.py
+[104.978s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/rviz_cfg/.gitignore
+[104.980s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[104.982s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[104.984s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[104.986s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[104.988s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[104.990s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/environment/path.sh
+[104.992s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/environment/path.dsv
+[104.994s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/local_setup.bash
+[104.996s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/local_setup.sh
+[104.998s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/local_setup.zsh
+[105.000s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/local_setup.dsv
+[105.002s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/package.dsv
+[105.005s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[105.007s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.009s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[105.012s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[105.014s] -- Symlinking: /home/rmsentry/ros_ws/install/point_lio/share/point_lio/package.xml
+[105.017s] Invoked command in '/home/rmsentry/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/point_lio

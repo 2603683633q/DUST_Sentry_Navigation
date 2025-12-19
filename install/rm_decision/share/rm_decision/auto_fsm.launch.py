@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rm_decision/launch/auto_fsm.launch.py

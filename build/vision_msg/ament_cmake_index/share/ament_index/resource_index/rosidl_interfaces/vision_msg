@@ -1,0 +1,6 @@
+msg/DetectedId.idl
+msg/DetectedId.msg
+msg/GimblePosition.idl
+msg/GimblePosition.msg
+msg/SelectedId.idl
+msg/SelectedId.msg

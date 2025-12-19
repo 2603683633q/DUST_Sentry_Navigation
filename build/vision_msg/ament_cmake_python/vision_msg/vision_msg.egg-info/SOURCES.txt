@@ -1,0 +1,10 @@
+setup.py
+vision_msg/__init__.py
+vision_msg.egg-info/PKG-INFO
+vision_msg.egg-info/SOURCES.txt
+vision_msg.egg-info/dependency_links.txt
+vision_msg.egg-info/top_level.txt
+vision_msg/msg/__init__.py
+vision_msg/msg/_detected_id.py
+vision_msg/msg/_gimble_position.py
+vision_msg/msg/_selected_id.py

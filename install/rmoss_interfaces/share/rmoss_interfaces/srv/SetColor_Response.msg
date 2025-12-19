@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_interfaces/rosidl_cmake/srv/SetColor_Response.msg

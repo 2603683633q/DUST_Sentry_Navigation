@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'auto_aim_interfaces'}
+[0.000210] (-) JobUnselected: {'identifier': 'fake_msg_publisher'}
+[0.000220] (-) JobUnselected: {'identifier': 'fake_vel_transform'}
+[0.000228] (-) JobUnselected: {'identifier': 'ign_sim_pointcloud_tool'}
+[0.000236] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.000244] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.000251] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000259] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.000266] (-) JobUnselected: {'identifier': 'loam_interface'}
+[0.000273] (-) JobUnselected: {'identifier': 'pb2025_nav_bringup'}
+[0.000281] (-) JobUnselected: {'identifier': 'pb2025_robot_description'}
+[0.000288] (-) JobUnselected: {'identifier': 'pb2025_sentry_nav'}
+[0.000295] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000303] (-) JobUnselected: {'identifier': 'pb_omni_pid_pursuit_controller'}
+[0.000310] (-) JobUnselected: {'identifier': 'pb_rm_interfaces'}
+[0.000317] (-) JobUnselected: {'identifier': 'pb_teleop_twist_joy'}
+[0.000324] (-) JobUnselected: {'identifier': 'point_lio'}
+[0.000331] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000338] (-) JobUnselected: {'identifier': 'rm_decision'}
+[0.000346] (-) JobUnselected: {'identifier': 'rm_decision_interfaces'}
+[0.000353] (-) JobUnselected: {'identifier': 'rmoss_base'}
+[0.000360] (-) JobUnselected: {'identifier': 'rmoss_cam'}
+[0.000367] (-) JobUnselected: {'identifier': 'rmoss_core'}
+[0.000374] (-) JobUnselected: {'identifier': 'rmoss_gz_base'}
+[0.000381] (-) JobUnselected: {'identifier': 'rmoss_gz_bridge'}
+[0.000389] (-) JobUnselected: {'identifier': 'rmoss_gz_cam'}
+[0.000396] (-) JobUnselected: {'identifier': 'rmoss_gz_plugins'}
+[0.000403] (-) JobUnselected: {'identifier': 'rmoss_gz_resources'}
+[0.000410] (-) JobUnselected: {'identifier': 'rmoss_interfaces'}
+[0.000417] (-) JobUnselected: {'identifier': 'rmoss_projectile_motion'}
+[0.000425] (-) JobUnselected: {'identifier': 'rmoss_util'}
+[0.000432] (-) JobUnselected: {'identifier': 'rmu_gazebo_simulator'}
+[0.000439] (-) JobUnselected: {'identifier': 'sdformat_tools'}
+[0.000446] (-) JobUnselected: {'identifier': 'sensor_scan_generation'}
+[0.000453] (-) JobUnselected: {'identifier': 'small_gicp_relocalization'}
+[0.000461] (-) JobUnselected: {'identifier': 'terrain_analysis'}
+[0.000467] (-) JobUnselected: {'identifier': 'terrain_analysis_ext'}
+[0.000475] (-) JobUnselected: {'identifier': 'vision_msg'}
+[0.000484] (rm_serial_driver) JobQueued: {'identifier': 'rm_serial_driver', 'dependencies': OrderedDict([('auto_aim_interfaces', '/home/rmsentry/ros_ws/install/auto_aim_interfaces'), ('rm_decision_interfaces', '/home/rmsentry/ros_ws/install/rm_decision_interfaces')])}
+[0.000650] (rm_serial_driver) JobStarted: {'identifier': 'rm_serial_driver'}
+[0.008617] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'cmake'}
+[0.009001] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'build'}
+[0.009450] (rm_serial_driver) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/rmsentry/ros_ws/build/rm_serial_driver', '--', '-j12', '-l12'], 'cwd': '/home/rmsentry/ros_ws/build/rm_serial_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rmsentry'), ('SSH_CLIENT', '192.168.1.101 43436 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces/lib:/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('BROWSER', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rmsentry'), ('OLDPWD', '/home/rmsentry/ros_ws'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6a0a7a4b-6c47-4f0d-9c6c-656281f5b146.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rmsentry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/home/rmsentry/.local/bin:/opt/ros/humble/bin:/home/rmsentry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b05d376ab5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces:/home/rmsentry/ros_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/rmsentry/ros_ws/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.1.101 43436 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces/local/lib/python3.10/dist-packages:/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces:/home/rmsentry/ros_ws/install/auto_aim_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.031542] (rm_serial_driver) StdoutLine: {'line': b'[ 40%] Built target rm_serial_driver_node\n'}
+[0.042093] (rm_serial_driver) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o\n'}
+[0.099756] (-) TimerEvent: {}
+[0.199911] (-) TimerEvent: {}
+[0.300118] (-) TimerEvent: {}
+[0.400304] (-) TimerEvent: {}
+[0.500489] (-) TimerEvent: {}
+[0.600752] (-) TimerEvent: {}
+[0.700911] (-) TimerEvent: {}
+[0.801100] (-) TimerEvent: {}
+[0.901311] (-) TimerEvent: {}
+[1.001469] (-) TimerEvent: {}
+[1.101627] (-) TimerEvent: {}
+[1.201789] (-) TimerEvent: {}
+[1.301950] (-) TimerEvent: {}
+[1.402140] (-) TimerEvent: {}
+[1.502331] (-) TimerEvent: {}
+[1.602530] (-) TimerEvent: {}
+[1.702819] (-) TimerEvent: {}
+[1.803010] (-) TimerEvent: {}
+[1.903244] (-) TimerEvent: {}
+[2.003485] (-) TimerEvent: {}
+[2.103705] (-) TimerEvent: {}
+[2.203936] (-) TimerEvent: {}
+[2.304145] (-) TimerEvent: {}
+[2.404337] (-) TimerEvent: {}
+[2.504534] (-) TimerEvent: {}
+[2.604736] (-) TimerEvent: {}
+[2.704853] (-) TimerEvent: {}
+[2.805025] (-) TimerEvent: {}
+[2.905219] (-) TimerEvent: {}
+[3.005412] (-) TimerEvent: {}
+[3.105620] (-) TimerEvent: {}
+[3.205785] (-) TimerEvent: {}
+[3.305941] (-) TimerEvent: {}
+[3.406121] (-) TimerEvent: {}
+[3.506315] (-) TimerEvent: {}
+[3.606478] (-) TimerEvent: {}
+[3.706763] (-) TimerEvent: {}
+[3.806985] (-) TimerEvent: {}
+[3.907161] (-) TimerEvent: {}
+[4.007340] (-) TimerEvent: {}
+[4.107518] (-) TimerEvent: {}
+[4.207697] (-) TimerEvent: {}
+[4.307982] (-) TimerEvent: {}
+[4.408220] (-) TimerEvent: {}
+[4.508502] (-) TimerEvent: {}
+[4.608713] (-) TimerEvent: {}
+[4.708991] (-) TimerEvent: {}
+[4.809246] (-) TimerEvent: {}
+[4.909464] (-) TimerEvent: {}
+[5.009685] (-) TimerEvent: {}
+[5.109870] (-) TimerEvent: {}
+[5.210061] (-) TimerEvent: {}
+[5.310269] (-) TimerEvent: {}
+[5.410440] (-) TimerEvent: {}
+[5.510644] (-) TimerEvent: {}
+[5.610963] (-) TimerEvent: {}
+[5.711179] (-) TimerEvent: {}
+[5.811370] (-) TimerEvent: {}
+[5.911554] (-) TimerEvent: {}
+[6.011740] (-) TimerEvent: {}
+[6.111894] (-) TimerEvent: {}
+[6.212071] (-) TimerEvent: {}
+[6.312222] (-) TimerEvent: {}
+[6.412392] (-) TimerEvent: {}
+[6.512554] (-) TimerEvent: {}
+[6.612747] (-) TimerEvent: {}
+[6.712930] (-) TimerEvent: {}
+[6.813095] (-) TimerEvent: {}
+[6.913251] (-) TimerEvent: {}
+[7.013442] (-) TimerEvent: {}
+[7.113623] (-) TimerEvent: {}
+[7.213786] (-) TimerEvent: {}
+[7.313954] (-) TimerEvent: {}
+[7.414115] (-) TimerEvent: {}
+[7.514279] (-) TimerEvent: {}
+[7.614461] (-) TimerEvent: {}
+[7.714734] (-) TimerEvent: {}
+[7.814894] (-) TimerEvent: {}
+[7.915088] (-) TimerEvent: {}
+[8.015309] (-) TimerEvent: {}
+[8.115597] (-) TimerEvent: {}
+[8.215796] (-) TimerEvent: {}
+[8.315998] (-) TimerEvent: {}
+[8.416306] (-) TimerEvent: {}
+[8.516500] (-) TimerEvent: {}
+[8.616759] (-) TimerEvent: {}
+[8.716928] (-) TimerEvent: {}
+[8.817128] (-) TimerEvent: {}
+[8.917408] (-) TimerEvent: {}
+[9.017711] (-) TimerEvent: {}
+[9.117902] (-) TimerEvent: {}
+[9.218076] (-) TimerEvent: {}
+[9.278690] (rm_serial_driver) StdoutLine: {'line': b'[ 80%] Linking CXX shared library librm_serial_driver.so\n'}
+[9.318271] (-) TimerEvent: {}
+[9.418499] (-) TimerEvent: {}
+[9.518705] (-) TimerEvent: {}
+[9.618870] (-) TimerEvent: {}
+[9.719140] (-) TimerEvent: {}
+[9.819494] (-) TimerEvent: {}
+[9.847402] (rm_serial_driver) StdoutLine: {'line': b'[100%] Built target rm_serial_driver\n'}
+[9.850925] (rm_serial_driver) CommandEnded: {'returncode': 0}
+[9.851326] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'install'}
+[9.854013] (rm_serial_driver) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/rmsentry/ros_ws/build/rm_serial_driver'], 'cwd': '/home/rmsentry/ros_ws/build/rm_serial_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rmsentry'), ('SSH_CLIENT', '192.168.1.101 43436 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces/lib:/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('BROWSER', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rmsentry'), ('OLDPWD', '/home/rmsentry/ros_ws'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6a0a7a4b-6c47-4f0d-9c6c-656281f5b146.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rmsentry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/home/rmsentry/.local/bin:/opt/ros/humble/bin:/home/rmsentry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b05d376ab5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces:/home/rmsentry/ros_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/rmsentry/ros_ws/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.1.101 43436 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces/local/lib/python3.10/dist-packages:/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/rmsentry/ros_ws/install/rm_decision_interfaces:/home/rmsentry/ros_ws/install/auto_aim_interfaces:/opt/ros/humble')]), 'shell': False}
+[9.856263] (rm_serial_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.856567] (rm_serial_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.856701] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node\n'}
+[9.856903] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/include/rm_serial_driver/crc.hpp\n'}
+[9.856957] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/include/rm_serial_driver/packet.hpp\n'}
+[9.857007] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp\n'}
+[9.857085] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh\n'}
+[9.857157] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv\n'}
+[9.857290] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/lib/librm_serial_driver.so\n'}
+[9.857482] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml\n'}
+[9.857618] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py\n'}
+[9.857710] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver\n'}
+[9.857790] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver\n'}
+[9.857867] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh\n'}
+[9.857932] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv\n'}
+[9.857999] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh\n'}
+[9.858064] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv\n'}
+[9.858130] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash\n'}
+[9.858193] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh\n'}
+[9.858255] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh\n'}
+[9.858317] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv\n'}
+[9.858365] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv\n'}
+[9.860772] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver\n'}
+[9.860888] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver\n'}
+[9.860920] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.860991] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.861019] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.861071] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake\n'}
+[9.861126] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake\n'}
+[9.861179] (rm_serial_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/rm_serial_driver/share/rm_serial_driver/package.xml\n'}
+[9.861780] (rm_serial_driver) CommandEnded: {'returncode': 0}
+[9.872352] (rm_serial_driver) JobEnded: {'identifier': 'rm_serial_driver', 'rc': 0}
+[9.872636] (-) EventReactorShutdown: {}

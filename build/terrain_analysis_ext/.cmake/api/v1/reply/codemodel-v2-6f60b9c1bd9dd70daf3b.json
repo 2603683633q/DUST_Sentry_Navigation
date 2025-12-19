@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a09fe489c84e9f03d9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "terrain_analysis_ext",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "terrainAnalysisExt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrainAnalysisExt-71063fc26c58f8f65e6e.json",
+					"name" : "terrainAnalysisExt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis_ext_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis_ext_uninstall-abb6f386456c291bb8b6.json",
+					"name" : "terrain_analysis_ext_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-18828ae013657f73a210.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rmsentry/ros_ws/build/terrain_analysis_ext",
+		"source" : "/home/rmsentry/ros_ws/src/pb2025_sentry_nav/terrain_analysis_ext"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

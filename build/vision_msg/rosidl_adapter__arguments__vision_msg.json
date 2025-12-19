@@ -1,0 +1,8 @@
+{
+  "package_name": "vision_msg",
+  "non_idl_tuples": [
+    "/home/rmsentry/ros_ws/src/rm_decision/vision_msg:msg/GimblePosition.msg",
+    "/home/rmsentry/ros_ws/src/rm_decision/vision_msg:msg/DetectedId.msg",
+    "/home/rmsentry/ros_ws/src/rm_decision/vision_msg:msg/SelectedId.msg"
+  ]
+}

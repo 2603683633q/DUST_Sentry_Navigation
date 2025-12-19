@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating fake_msg_publisher.egg-info
+writing fake_msg_publisher.egg-info/PKG-INFO
+writing dependency_links to fake_msg_publisher.egg-info/dependency_links.txt
+writing entry points to fake_msg_publisher.egg-info/entry_points.txt
+writing requirements to fake_msg_publisher.egg-info/requires.txt
+writing top-level names to fake_msg_publisher.egg-info/top_level.txt
+writing manifest file 'fake_msg_publisher.egg-info/SOURCES.txt'
+reading manifest file 'fake_msg_publisher.egg-info/SOURCES.txt'
+writing manifest file 'fake_msg_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rmsentry/ros_ws/install/fake_msg_publisher/lib/python3.10/site-packages/fake-msg-publisher.egg-link (link to .)
+Installing fake_msg_publisher_node script to /home/rmsentry/ros_ws/install/fake_msg_publisher/lib/fake_msg_publisher
+
+Installed /home/rmsentry/ros_ws/build/fake_msg_publisher
+running symlink_data
+creating /home/rmsentry/ros_ws/install/fake_msg_publisher/share/ament_index
+creating /home/rmsentry/ros_ws/install/fake_msg_publisher/share/ament_index/resource_index
+creating /home/rmsentry/ros_ws/install/fake_msg_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/rmsentry/ros_ws/build/fake_msg_publisher/resource/fake_msg_publisher -> /home/rmsentry/ros_ws/install/fake_msg_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/rmsentry/ros_ws/build/fake_msg_publisher/package.xml -> /home/rmsentry/ros_ws/install/fake_msg_publisher/share/fake_msg_publisher

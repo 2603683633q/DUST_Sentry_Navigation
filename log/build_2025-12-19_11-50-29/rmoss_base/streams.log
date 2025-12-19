@@ -1,0 +1,113 @@
+[0.015s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_base': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_core/rmoss_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_base
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.820s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.859s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.969s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.975s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.007s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.148s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.390s] -- Found FastRTPS: /opt/ros/humble/include
+[1.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.673s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.673s] -- Found Threads: TRUE
+[1.802s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.915s] -- Found rmoss_interfaces: 0.9.0 (/home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake)
+[2.015s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.122s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.130s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.154s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.160s] -- Configured cppcheck include dirs: /home/rmsentry/ros_ws/src/rmoss_core/rmoss_base/include
+[2.160s] -- Configured cppcheck exclude dirs and/or files: 
+[2.168s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.171s] -- Configured cpplint exclude dirs and/or files: 
+[2.171s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.171s] -- Added test 'lint_cmake' to check CMake code style
+[2.171s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.174s] -- Added test 'uncrustify' to check C / C++ code style
+[2.174s] -- Configured uncrustify additional arguments: 
+[2.174s] -- Added test 'xmllint' to check XML markup files
+[2.178s] -- Configuring done (2.2s)
+[2.222s] -- Generating done (0.0s)
+[2.232s] -- Build files have been written to: /home/rmsentry/ros_ws/build/rmoss_base
+[2.263s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_base' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_core/rmoss_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_base
+[2.263s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_base': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_base -- -j12 -l12
+[2.330s] [  6%] Building CXX object CMakeFiles/rmoss_base.dir/src/transporter_driver/uart_transporter.cpp.o
+[2.333s] [ 12%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[2.334s] [ 18%] Building CXX object CMakeFiles/rmoss_base.dir/src/simple_robot_base_node.cpp.o
+[2.334s] [ 25%] Building CXX object CMakeFiles/rmoss_base.dir/src/transporter_driver/udp_transporter.cpp.o
+[2.346s] [ 31%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[3.651s] [ 37%] Linking CXX static library libgtest_main.a
+[3.783s] [ 37%] Built target gtest_main
+[7.819s] [ 43%] Linking CXX static library libgtest.a
+[7.966s] [ 43%] Built target gtest
+[20.276s] [ 50%] Linking CXX shared library librmoss_base.so
+[21.205s] [ 50%] Built target rmoss_base
+[21.231s] [ 56%] Building CXX object CMakeFiles/simple_robot_base.dir/src/simple_robot_base_main.cpp.o
+[25.182s] [ 62%] Linking CXX executable simple_robot_base
+[25.564s] [ 62%] Built target simple_robot_base
+[25.584s] [ 68%] Building CXX object test/CMakeFiles/test_udp_transporter.dir/test_udp_transporter.cpp.o
+[27.295s] [ 75%] Linking CXX executable test_udp_transporter
+[27.732s] [ 75%] Built target test_udp_transporter
+[27.754s] [ 81%] Building CXX object test/CMakeFiles/test_fixed_packet_tool.dir/test_fixed_packet_tool.cpp.o
+[29.870s] [ 87%] Linking CXX executable test_fixed_packet_tool
+[30.383s] [ 87%] Built target test_fixed_packet_tool
+[30.412s] [ 93%] Building CXX object test/CMakeFiles/test_fixed_packet.dir/test_fixed_packet.cpp.o
+[32.690s] [100%] Linking CXX executable test_fixed_packet
+[33.059s] [100%] Built target test_fixed_packet
+[33.077s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_base' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_base -- -j12 -l12
+[33.077s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_base': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_base
+[33.079s] -- Install configuration: ""
+[33.083s] -- Execute custom install script
+[33.083s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/fixed_packet.hpp
+[33.093s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/fixed_packet_tool.hpp
+[33.105s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/simple_robot_base_node.hpp
+[33.113s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/transporter_interface.hpp
+[33.124s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/uart_transporter.hpp
+[33.129s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/include/rmoss_base/udp_transporter.hpp
+[33.136s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/lib/rmoss_base/simple_robot_base
+[33.144s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/lib/rmoss_base/test_control_chassis.py
+[33.163s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/lib/rmoss_base/test_control_gimbal.py
+[33.170s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/library_path.sh
+[33.188s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/library_path.dsv
+[33.200s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/ament_index/resource_index/package_run_dependencies/rmoss_base
+[33.218s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/ament_index/resource_index/parent_prefix_path/rmoss_base
+[33.229s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/ament_prefix_path.sh
+[33.235s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/ament_prefix_path.dsv
+[33.243s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/path.sh
+[33.247s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/environment/path.dsv
+[33.251s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/local_setup.bash
+[33.259s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/local_setup.sh
+[33.262s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/local_setup.zsh
+[33.268s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/local_setup.dsv
+[33.278s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/package.dsv
+[33.280s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/ament_index/resource_index/packages/rmoss_base
+[33.285s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/ament_index/resource_index/rclcpp_components/rmoss_base
+[33.291s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/ament_cmake_export_targets-extras.cmake
+[33.297s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.307s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/rmoss_baseConfig.cmake
+[33.309s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/rmoss_baseConfig-version.cmake
+[33.315s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/package.xml
+[33.321s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_base/lib/librmoss_base.so
+[33.345s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_base/lib/librmoss_base.so" to ""
+[33.346s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/rmoss_baseExport.cmake
+[33.347s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_base/share/rmoss_base/cmake/rmoss_baseExport-noconfig.cmake
+[33.357s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_base' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_base

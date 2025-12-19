@@ -1,0 +1,90 @@
+[0.024s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_gazebo/rmoss_gz_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_gz_cam
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.199s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.378s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.385s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.895s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.945s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.002s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.009s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.132s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.136s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.328s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.395s] -- Found FastRTPS: /opt/ros/humble/include
+[1.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.494s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.617s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.617s] -- Found Threads: TRUE
+[1.784s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.836s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.892s] -- Found rmoss_interfaces: 0.9.0 (/home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/cmake)
+[1.929s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.960s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[2.014s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[2.171s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[2.791s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.792s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.792s] -- Compiling against Ignition Fortress
+[2.800s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.951s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.953s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.954s] -- Configured cppcheck include dirs: /home/rmsentry/ros_ws/src/rmoss_gazebo/rmoss_gz_cam/include
+[2.955s] -- Configured cppcheck exclude dirs and/or files: 
+[2.957s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.957s] -- Configured cpplint exclude dirs and/or files: 
+[2.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.961s] -- Added test 'lint_cmake' to check CMake code style
+[2.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.965s] -- Added test 'uncrustify' to check C / C++ code style
+[2.965s] -- Configured uncrustify additional arguments: 
+[2.966s] -- Added test 'xmllint' to check XML markup files
+[2.973s] -- Configuring done (2.9s)
+[3.039s] -- Generating done (0.0s)
+[3.066s] -- Build files have been written to: /home/rmsentry/ros_ws/build/rmoss_gz_cam
+[3.082s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_gazebo/rmoss_gz_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_gz_cam
+[3.088s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_cam -- -j12 -l12
+[3.180s] [ 25%] Building CXX object CMakeFiles/rmoss_gz_cam.dir/src/gz_cam_node.cpp.o
+[18.218s] [ 50%] Linking CXX shared library librmoss_gz_cam.so
+[19.981s] [ 50%] Built target rmoss_gz_cam
+[20.001s] [ 75%] Building CXX object CMakeFiles/gz_cam.dir/src/gz_cam_main.cpp.o
+[29.426s] [100%] Linking CXX executable gz_cam
+[30.047s] [100%] Built target gz_cam
+[30.062s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_cam -- -j12 -l12
+[30.066s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_cam
+[30.076s] -- Install configuration: ""
+[30.078s] -- Execute custom install script
+[30.080s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/include/rmoss_gz_cam/gz_cam_node.hpp
+[30.090s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/lib/rmoss_gz_cam/gz_cam
+[30.102s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/launch/gz_cam.launch.py
+[30.108s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/ament_index/resource_index/package_run_dependencies/rmoss_gz_cam
+[30.112s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/ament_index/resource_index/parent_prefix_path/rmoss_gz_cam
+[30.119s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/environment/ament_prefix_path.sh
+[30.125s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/environment/ament_prefix_path.dsv
+[30.132s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/environment/path.sh
+[30.139s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/environment/path.dsv
+[30.150s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/local_setup.bash
+[30.159s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/local_setup.sh
+[30.171s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/local_setup.zsh
+[30.175s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/local_setup.dsv
+[30.182s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/package.dsv
+[30.190s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/ament_index/resource_index/packages/rmoss_gz_cam
+[30.197s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/ament_index/resource_index/rclcpp_components/rmoss_gz_cam
+[30.205s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/cmake/rmoss_gz_camConfig.cmake
+[30.216s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/cmake/rmoss_gz_camConfig-version.cmake
+[30.220s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_cam/share/rmoss_gz_cam/package.xml
+[30.226s] -- Installing: /home/rmsentry/ros_ws/install/rmoss_gz_cam/lib/librmoss_gz_cam.so
+[30.244s] -- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/rmoss_gz_cam/lib/librmoss_gz_cam.so" to ""
+[30.248s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_cam' returned '0': AMENT_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rmsentry/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_cam

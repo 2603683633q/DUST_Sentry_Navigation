@@ -1,0 +1,142 @@
+[0.020s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_gz_resources -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_gz_resources
+[0.318s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.318s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.523s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.599s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.636s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.762s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.777s] -- Added test 'lint_cmake' to check CMake code style
+[0.788s] -- Added test 'xmllint' to check XML markup files
+[0.788s] -- Configuring done (0.8s)
+[0.790s] -- Generating done (0.0s)
+[0.792s] -- Build files have been written to: /home/rmsentry/ros_ws/build/rmoss_gz_resources
+[0.798s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/rmoss_gz_resources -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/rmoss_gz_resources
+[0.799s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_resources -- -j12 -l12
+[0.821s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/rmoss_gz_resources -- -j12 -l12
+[0.822s] Invoking command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_resources
+[0.825s] -- Install configuration: ""
+[0.827s] -- Execute custom install script
+[0.827s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_base.png
+[0.832s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_num1.png
+[0.836s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_num3.png
+[0.841s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_num4.png
+[0.844s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_num5.png
+[0.848s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/large_sentry.png
+[0.853s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_base.png
+[0.857s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_num1.png
+[0.861s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_num2.png
+[0.864s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_num3.png
+[0.868s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_num4.png
+[0.874s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_num5.png
+[0.879s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/materials/textures/small_outpost.png
+[0.882s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/armor_support_frame.stl
+[0.886s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/large_armor.stl
+[0.890s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/large_armor_light_bar.stl
+[0.897s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/large_armor_screw.stl
+[0.906s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/large_armor_target.stl
+[0.910s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/small_armor.dae
+[0.916s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/small_armor_light_bar.dae
+[0.921s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/meshes/small_armor_target.dae
+[0.929s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/model.config
+[0.932s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/model.sdf
+[0.939s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/model.sdf.xmacro
+[0.943s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/rm21_armor_module.def.xmacro
+[0.947s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_armor_module/thumbnails/rm21_armor_module.png
+[0.954s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/meshes/light_indicator_bar.dae
+[0.958s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/meshes/light_indicator_holder.dae
+[0.962s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/model.config
+[0.967s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/model.sdf
+[0.971s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/model.sdf.xmacro
+[0.975s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/rm21_light_indicator_module.def.xmacro
+[0.978s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_light_indicator_module/thumbnails/rm21_light_indicator_module.png
+[0.985s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/meshes/speed_monitor_17mm.dae
+[0.990s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/meshes/speed_monitor_17mm_light_bar.dae
+[0.994s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/meshes/speed_monitor_42mm.stl
+[0.999s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/meshes/speed_monitor_42mm_light_bar.stl
+[1.006s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/model.config
+[1.018s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/model.sdf
+[1.021s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/model.sdf.xmacro
+[1.023s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/rm21_speed_monitor_module.def.xmacro
+[1.028s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_speed_monitor_module/thumbnails/rm21_speed_monitor_module.png
+[1.036s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/meshes/video_transmitter.stl
+[1.042s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/meshes/video_transmitter_glass.stl
+[1.047s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/model.config
+[1.053s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/model.sdf
+[1.057s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/model.sdf.xmacro
+[1.069s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/rm21_video_transmitter_module.def.xmacro
+[1.069s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm21_video_transmitter_module/thumbnails/rm21_video_transmitter_module.png
+[1.074s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num1_0.png
+[1.084s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num1_1.png
+[1.091s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num1_2.png
+[1.095s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num1_3.png
+[1.099s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num2_0.png
+[1.105s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num2_1.png
+[1.111s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num2_2.png
+[1.116s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/materials/textures/ua_num2_3.png
+[1.122s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/model.config
+[1.126s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/model.sdf
+[1.133s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/model.sdf.xmacro
+[1.141s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/rm22_armor_module.def.xmacro
+[1.145s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_armor_module/thumbnails/rm22_armor_module.png
+[1.151s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_light_indicator_module/model.config
+[1.155s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_light_indicator_module/model.sdf
+[1.158s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_light_indicator_module/model.sdf.xmacro
+[1.164s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_light_indicator_module/rm22_light_indicator_module.def.xmacro
+[1.170s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_speed_monitor_module/model.config
+[1.176s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_speed_monitor_module/model.sdf
+[1.180s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_speed_monitor_module/model.sdf.xmacro
+[1.198s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_speed_monitor_module/rm22_speed_monitor_module.def.xmacro
+[1.198s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_video_transmitter_module/model.config
+[1.198s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_video_transmitter_module/model.sdf
+[1.200s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_video_transmitter_module/model.sdf.xmacro
+[1.200s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm22_video_transmitter_module/rm22_video_transmitter_module.def.xmacro
+[1.210s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm25_example_robot/model.config
+[1.210s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm25_example_robot/model.sdf
+[1.211s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm25_example_robot/model.sdf.xmacro
+[1.215s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm25_example_robot/rm25_example_robot.def.xmacro
+[1.226s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_17mm/model.config
+[1.229s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_17mm/model.sdf
+[1.233s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_17mm/model.sdf.xmacro
+[1.238s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_17mm/rm_projectile.def.xmacro
+[1.243s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_42mm/model.config
+[1.248s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_42mm/model.sdf
+[1.252s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rm_projectile_42mm/model.sdf.xmacro
+[1.256s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/chassis_wheel.def.xmacro
+[1.262s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/meshes/chassis_base.dae
+[1.267s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/meshes/gimbal_pitch.dae
+[1.269s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/meshes/gimbal_yaw.dae
+[1.272s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/meshes/wheel_left.dae
+[1.277s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/meshes/wheel_right.dae
+[1.282s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/model.config
+[1.285s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/model.sdf
+[1.289s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/model.sdf.xmacro
+[1.293s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/rmua19_standard_robot.def.xmacro
+[1.297s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models/rmua19_standard_robot/thumbnails/rmua19_standard_robot.png
+[1.304s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/environment/gazebo.dsv
+[1.308s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/ament_index/resource_index/package_run_dependencies/rmoss_gz_resources
+[1.312s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/ament_index/resource_index/parent_prefix_path/rmoss_gz_resources
+[1.319s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/environment/ament_prefix_path.sh
+[1.324s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/environment/ament_prefix_path.dsv
+[1.327s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/environment/path.sh
+[1.331s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/environment/path.dsv
+[1.335s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/local_setup.bash
+[1.338s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/local_setup.sh
+[1.342s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/local_setup.zsh
+[1.345s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/local_setup.dsv
+[1.350s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/package.dsv
+[1.353s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/ament_index/resource_index/packages/rmoss_gz_resources
+[1.358s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/cmake/rmoss_gz_resourcesConfig.cmake
+[1.362s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/cmake/rmoss_gz_resourcesConfig-version.cmake
+[1.370s] -- Symlinking: /home/rmsentry/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/package.xml
+[1.381s] Invoked command in '/home/rmsentry/ros_ws/build/rmoss_gz_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/rmoss_gz_resources

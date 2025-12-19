@@ -1,0 +1,117 @@
+[0.015s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/small_gicp_relocalization
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.249s] -- The CXX compiler identification is GNU 11.4.0
+[0.279s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.662s] -- Detecting CXX compiler ABI info - done
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.687s] -- Detecting CXX compile features
+[0.688s] -- Detecting CXX compile features - done
+[0.690s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.938s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.044s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.949s] -- Found OpenMP_C: -fopenmp (found version "4.5")
+[2.186s] -- Found OpenMP_CXX: -fopenmp (found version "4.5")
+[2.186s] -- Found OpenMP: TRUE (found version "4.5")
+[2.804s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.825s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.890s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.337s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.348s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[3.925s] -- Found FastRTPS: /opt/ros/humble/include
+[4.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.368s] -- Found Threads: TRUE
+[4.951s] CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[4.952s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.952s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.952s]   cmake_policy command to set the policy and suppress this warning.
+[4.952s] 
+[4.952s]   CMake variable EIGEN_ROOT is set to:
+[4.953s] 
+[4.953s]     /usr/include/eigen3
+[4.953s] 
+[4.954s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.954s]   .cmake module might still use it.
+[4.954s] Call Stack (most recent call first):
+[4.954s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[4.955s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.955s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.955s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[4.956s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[4.956s]   CMakeLists.txt:21 (ament_auto_find_build_dependencies)
+[4.956s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.959s] 
+[4.975s] -- Checking for module 'eigen3'
+[5.037s] --   Found eigen3, version 3.4.0
+[5.167s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[5.167s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.204s] CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[5.204s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[5.205s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[5.205s]   cmake_policy command to set the policy and suppress this warning.
+[5.206s] 
+[5.206s]   CMake variable FLANN_ROOT is set to:
+[5.206s] 
+[5.207s]     /usr
+[5.207s] 
+[5.208s]   For compatibility, find_package is ignoring the variable, but code in a
+[5.208s]   .cmake module might still use it.
+[5.208s] Call Stack (most recent call first):
+[5.209s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[5.209s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[5.209s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[5.210s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.210s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[5.211s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[5.211s]   CMakeLists.txt:21 (ament_auto_find_build_dependencies)
+[5.211s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.212s] 
+[5.231s] -- Checking for module 'flann'
+[5.274s] --   Found flann, version 1.9.1
+[5.401s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[5.401s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.247s] -- Checking for module 'libusb-1.0'
+[9.281s] --   Found libusb-1.0, version 1.0.26
+[9.312s] -- Found libusb: /usr/local/lib/libusb-1.0.so
+[9.315s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.417s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.840s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.855s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.872s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.355s] -- Found Qhull version 8.0.2
+[10.764s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.688s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[11.690s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[11.696s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[11.704s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[11.705s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[11.716s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[11.717s] -- Found PCL_2D: /usr/include/pcl-1.12
+[11.717s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[11.717s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[11.725s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[11.733s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[11.735s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[11.746s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[11.759s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[11.760s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[11.766s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[11.771s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[11.772s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[11.774s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[11.778s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[11.780s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[11.785s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[11.786s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[11.787s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[11.794s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[456.945s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/small_gicp_relocalization

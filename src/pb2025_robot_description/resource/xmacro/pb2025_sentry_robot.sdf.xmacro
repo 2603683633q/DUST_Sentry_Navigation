@@ -11,9 +11,9 @@
     <xmacro_define_value name="global_initial_color" value="none" />
     <xmacro_define_value name="global_armor_sticker_type" value="num3" />
     <!-- 底盘距离水平地面的高度 -->
-    <xmacro_define_value name="chassis_height" value="0.077" />
+    <xmacro_define_value name="chassis_height" value="0.10" />
     <!-- gimbal_yaw 相对于底盘的 z 轴安装偏移 -->
-    <xmacro_define_value name="gimbal_yaw_height" value="0.026" />
+    <xmacro_define_value name="gimbal_yaw_height" value="0.26" />
     <!-- gimbal_pitch 相对于 gimbal_yaw 的高度差 -->
     <xmacro_define_value name="gimbal_pitch_height" value="0.20" />
 
@@ -27,13 +27,13 @@
 
         <!-- front livox (primary lidar) -->
         <!-- creates link/frame: front_mid360 -->
-        <xmacro_block name="livox" prefix="front_" parent="gimbal_pitch" pose="-0.0496 -0.0536 0.1 ${pi/3} 0 0" update_rate="20" samples="1875"/>
+        <xmacro_block name="livox" prefix="front_" parent="gimbal_yaw" pose="0 0.02 0.3 ${pi/6} ${pi/3} ${pi/36}" update_rate="20" samples="1875"/>
 
         <!-- rear livox (second lidar)
         <xmacro_block name="livox" prefix="rear_" parent="gimbal_pitch" pose="-0.0496 -0.0936 0.1 ${pi/6} 0 0" update_rate="20" samples="1875"/> -->
 
         <!-- rear camera (second industrial camera) -->
-        <xmacro_block name="industrial_camera" prefix="rear_" parent="gimbal_pitch" pose="-0.1 0 0.06 0 0 ${pi}" update_rate="30" horizontal_fov="1" width="1920" height="1080"/>
+        <xmacro_block name="industrial_camera" prefix="rear_" parent="gimbal_pitch" pose="-0.1 0.2 0.06 0 0 ${pi}" update_rate="30" horizontal_fov="1" width="1920" height="1080"/>
 
         <!-- a fake yaw frame to bridge TF: gimbal_yaw_fake fixed to gimbal_yaw -->
         <link name="gimbal_yaw_fake">

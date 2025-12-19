@@ -1,0 +1,221 @@
+[0.110s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/small_gicp_relocalization
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.393s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.534s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.851s] -- Found OpenMP_C: -fopenmp (found version "4.5")
+[0.926s] -- Found OpenMP_CXX: -fopenmp (found version "4.5")
+[0.926s] -- Found OpenMP: TRUE (found version "4.5")
+[1.049s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.056s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.069s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.237s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.266s] -- Found FastRTPS: /opt/ros/humble/include
+[1.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.363s] -- Found Threads: TRUE
+[1.588s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.588s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.588s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.588s]   cmake_policy command to set the policy and suppress this warning.
+[1.588s] 
+[1.588s]   CMake variable EIGEN_ROOT is set to:
+[1.588s] 
+[1.588s]     /usr/include/eigen3
+[1.588s] 
+[1.588s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.588s]   .cmake module might still use it.
+[1.588s] Call Stack (most recent call first):
+[1.588s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.588s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.588s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.588s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.588s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.588s]   CMakeLists.txt:21 (ament_auto_find_build_dependencies)
+[1.588s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.588s] [0m
+[1.591s] -- Checking for module 'eigen3'
+[1.601s] --   Found eigen3, version 3.4.0
+[1.622s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.622s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.648s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.648s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.648s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.648s]   cmake_policy command to set the policy and suppress this warning.
+[1.648s] 
+[1.648s]   CMake variable FLANN_ROOT is set to:
+[1.648s] 
+[1.648s]     /usr
+[1.648s] 
+[1.648s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.648s]   .cmake module might still use it.
+[1.648s] Call Stack (most recent call first):
+[1.648s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.648s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.648s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.648s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.648s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.648s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.648s]   CMakeLists.txt:21 (ament_auto_find_build_dependencies)
+[1.648s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.648s] [0m
+[1.661s] -- Checking for module 'flann'
+[1.670s] --   Found flann, version 1.9.1
+[1.700s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[1.700s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.462s] -- Checking for module 'libusb-1.0'
+[2.472s] --   Found libusb-1.0, version 1.0.26
+[2.495s] -- Found libusb: /usr/local/lib/libusb-1.0.so
+[2.495s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.534s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.750s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.755s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.759s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.963s] -- Found Qhull version 8.0.2
+[3.170s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.377s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[3.377s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[3.378s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[3.379s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[3.380s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[3.381s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[3.381s] -- Found PCL_2D: /usr/include/pcl-1.12
+[3.381s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[3.382s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[3.383s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[3.385s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[3.386s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[3.386s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[3.387s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[3.388s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[3.389s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[3.390s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[3.391s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[3.392s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[3.393s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[3.393s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[3.394s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[3.394s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[3.395s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[3.396s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[11.637s] -- Found OpenMP_C: -fopenmp (found version "4.5")
+[11.638s] -- Found OpenMP_CXX: -fopenmp (found version "4.5")
+[11.664s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.684s] -- Added test 'clang_format' to check C / C++ code style
+[11.685s] -- Added test 'clang_tidy' to check C / C++ code style
+[11.686s] -- Added test 'black' to check Python code style
+[11.687s] -- Added test 'xmllint' to check XML markup files
+[11.688s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.690s] -- Configuring done (11.6s)
+[11.721s] -- Generating done (0.0s)
+[11.726s] -- Build files have been written to: /home/rmsentry/ros_ws/build/small_gicp_relocalization
+[11.740s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake /home/rmsentry/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/small_gicp_relocalization
+[11.742s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/small_gicp_relocalization -- -j12 -l12
+[11.767s] [ 14%] [32mBuilding CXX object _deps/small_gicp-build/CMakeFiles/small_gicp.dir/src/small_gicp/registration/registration.cpp.o[0m
+[11.767s] [ 28%] [32mBuilding CXX object _deps/small_gicp-build/CMakeFiles/small_gicp.dir/src/small_gicp/registration/registration_helper.cpp.o[0m
+[11.767s] [ 42%] [32mBuilding CXX object CMakeFiles/small_gicp_relocalization_node.dir/rclcpp_components/node_main_small_gicp_relocalization_node.cpp.o[0m
+[13.877s] [ 57%] [32m[1mLinking CXX executable small_gicp_relocalization_node[0m
+[13.943s] [ 57%] Built target small_gicp_relocalization_node
+[19.894s] [ 71%] [32m[1mLinking CXX shared library libsmall_gicp.so[0m
+[19.942s] [ 71%] Built target small_gicp
+[19.952s] [ 85%] [32mBuilding CXX object CMakeFiles/small_gicp_relocalization.dir/src/small_gicp_relocalization.cpp.o[0m
+[39.671s] [100%] [32m[1mLinking CXX shared library libsmall_gicp_relocalization.so[0m
+[39.957s] [100%] Built target small_gicp_relocalization
+[39.961s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/small_gicp_relocalization -- -j12 -l12
+[39.963s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/small_gicp_relocalization
+[39.965s] -- Install configuration: "Release"
+[39.965s] -- Execute custom install script
+[39.966s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/flat_container.hpp
+[39.969s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/gaussian_voxelmap.hpp
+[39.972s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/incremental_voxelmap.hpp
+[39.974s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree.hpp
+[39.977s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree_omp.hpp
+[39.980s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree_tbb.hpp
+[39.982s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/knn_result.hpp
+[39.985s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/projection.hpp
+[39.988s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/projective_search.hpp
+[39.990s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/sequential_voxelmap_accessor.hpp
+[39.993s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/traits.hpp
+[39.995s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/benchmark.hpp
+[39.998s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/benchmark_odom.hpp
+[40.001s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/read_points.hpp
+[40.003s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/general_factor.hpp
+[40.006s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/gicp_factor.hpp
+[40.008s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/icp_factor.hpp
+[40.012s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/plane_icp_factor.hpp
+[40.014s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/robust_kernel.hpp
+[40.017s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_point.hpp
+[40.019s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_point_traits.hpp
+[40.022s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_proxy.hpp
+[40.024s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_registration.hpp
+[40.026s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_registration_impl.hpp
+[40.029s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/eigen.hpp
+[40.031s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/point_cloud.hpp
+[40.034s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/traits.hpp
+[40.036s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/optimizer.hpp
+[40.038s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction.hpp
+[40.041s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction_omp.hpp
+[40.044s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction_tbb.hpp
+[40.047s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration.hpp
+[40.049s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration_helper.hpp
+[40.052s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration_result.hpp
+[40.054s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/rejector.hpp
+[40.057s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/termination_criteria.hpp
+[40.060s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling.hpp
+[40.063s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling_omp.hpp
+[40.065s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling_tbb.hpp
+[40.067s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/fast_floor.hpp
+[40.070s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/lie.hpp
+[40.072s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation.hpp
+[40.075s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation_omp.hpp
+[40.077s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation_tbb.hpp
+[40.080s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/sort_omp.hpp
+[40.083s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/sort_tbb.hpp
+[40.085s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/vector3i_hash.hpp
+[40.088s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-config.cmake
+[40.091s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-config-version.cmake
+[40.094s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/small_gicp_relocalization/small_gicp_relocalization_node
+[40.096s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp_relocalization/small_gicp_relocalization/small_gicp_relocalization.hpp
+[40.099s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.sh
+[40.101s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.dsv
+[40.104s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/libsmall_gicp_relocalization.so
+[40.106s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/small_gicp_relocalization_launch.py
+[40.109s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+[40.111s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+[40.114s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+[40.117s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+[40.120s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+[40.122s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+[40.125s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+[40.127s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+[40.130s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+[40.133s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+[40.136s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+[40.138s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+[40.141s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/rclcpp_components/small_gicp_relocalization
+[40.143s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.146s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.148s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_libraries-extras.cmake
+[40.151s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+[40.153s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+[40.155s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml
+[40.158s] -- Installing: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/libsmall_gicp.so
+[40.158s] -- Installing: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-targets.cmake
+[40.158s] -- Installing: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-targets-release.cmake
+[40.159s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/small_gicp_relocalization

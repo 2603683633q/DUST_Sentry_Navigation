@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/vision_msg/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rmsentry/ros_ws/build/vision_msg/rosidl_generator_py/vision_msg/vision_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "vision_msg__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/vision_msg")

@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/rmsentry/ros_ws/install/rmoss_interfaces/share/rmoss_interfaces/package.sh"
+. "/home/rmsentry/ros_ws/install/rmoss_util/share/rmoss_util/package.sh"

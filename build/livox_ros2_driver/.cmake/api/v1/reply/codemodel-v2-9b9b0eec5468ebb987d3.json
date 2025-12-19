@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-148c9f60ca028f1fcc92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "livox_ros2_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros2_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros2_driver-cf0b7f6fc25b4cdd1d4f.json",
+					"name" : "livox_ros2_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros2_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros2_driver_node-e99c2d37c24728f82ab4.json",
+					"name" : "livox_ros2_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_ros2_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_ros2_driver_uninstall-2b93b8368255fc876307.json",
+					"name" : "livox_ros2_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8bbc25ea453f1bedaba9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rmsentry/ros_ws/build/livox_ros2_driver",
+		"source" : "/home/rmsentry/ros_ws/src/pb2025_sentry_nav/livox_ros2_driver/livox_ros2_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -64,8 +64,8 @@ point_lio:
       plane_thr: 0.1                                    # 0.05, the threshold for plane criteria, the smaller, the flatter a plane
       match_s: 81.0
       ivox_grid_resolution: 0.5
-      gravity_init: [-0.95123406, 0.02167990, 0.28178259]
-      gravity: [-0.952942, 0.021720, 0.282328]
+      gravity_init: [-0.9579591751098633,0.02061605453491211,0.31506282091140747]
+      gravity: [-0.9579591751098633,0.02061605453491211,0.31506282091140747]
       extrinsic_T: [ -0.011, -0.02329, 0.04412 ]
       extrinsic_R: [ 1.0, 0.0, 0.0,
                      0.0, 1.0, 0.0,

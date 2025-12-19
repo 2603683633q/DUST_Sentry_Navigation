@@ -1,0 +1,570 @@
+[0.000000] (-) TimerEvent: {}
+[0.000050] (-) JobUnselected: {'identifier': 'armor_detector'}
+[0.000067] (-) JobUnselected: {'identifier': 'armor_solver'}
+[0.000076] (-) JobUnselected: {'identifier': 'armor_tracker'}
+[0.000084] (-) JobUnselected: {'identifier': 'fake_msg_publisher'}
+[0.000091] (-) JobUnselected: {'identifier': 'fake_vel_transform'}
+[0.000098] (-) JobUnselected: {'identifier': 'ign_sim_pointcloud_tool'}
+[0.000111] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.000156] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.000163] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000170] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.000177] (-) JobUnselected: {'identifier': 'loam_interface'}
+[0.000184] (-) JobUnselected: {'identifier': 'pb2025_nav_bringup'}
+[0.000191] (-) JobUnselected: {'identifier': 'pb2025_robot_description'}
+[0.000198] (-) JobUnselected: {'identifier': 'pb2025_sentry_nav'}
+[0.000205] (-) JobUnselected: {'identifier': 'pb_nav2_plugins'}
+[0.000212] (-) JobUnselected: {'identifier': 'pb_omni_pid_pursuit_controller'}
+[0.000219] (-) JobUnselected: {'identifier': 'pb_rm_interfaces'}
+[0.000226] (-) JobUnselected: {'identifier': 'pb_teleop_twist_joy'}
+[0.000233] (-) JobUnselected: {'identifier': 'point_lio'}
+[0.000240] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000247] (-) JobUnselected: {'identifier': 'rm_auto_aim'}
+[0.000254] (-) JobUnselected: {'identifier': 'rm_decision'}
+[0.000260] (-) JobUnselected: {'identifier': 'rm_decision_interfaces'}
+[0.000267] (-) JobUnselected: {'identifier': 'rm_serial_driver'}
+[0.000274] (-) JobUnselected: {'identifier': 'rmoss_base'}
+[0.000281] (-) JobUnselected: {'identifier': 'rmoss_cam'}
+[0.000287] (-) JobUnselected: {'identifier': 'rmoss_core'}
+[0.000294] (-) JobUnselected: {'identifier': 'rmoss_gz_base'}
+[0.000301] (-) JobUnselected: {'identifier': 'rmoss_gz_bridge'}
+[0.000308] (-) JobUnselected: {'identifier': 'rmoss_gz_cam'}
+[0.000315] (-) JobUnselected: {'identifier': 'rmoss_gz_plugins'}
+[0.000322] (-) JobUnselected: {'identifier': 'rmoss_gz_resources'}
+[0.000329] (-) JobUnselected: {'identifier': 'rmoss_interfaces'}
+[0.000335] (-) JobUnselected: {'identifier': 'rmoss_projectile_motion'}
+[0.000342] (-) JobUnselected: {'identifier': 'rmoss_util'}
+[0.000349] (-) JobUnselected: {'identifier': 'rmu_gazebo_simulator'}
+[0.000356] (-) JobUnselected: {'identifier': 'sdformat_tools'}
+[0.000363] (-) JobUnselected: {'identifier': 'sensor_scan_generation'}
+[0.000370] (-) JobUnselected: {'identifier': 'small_gicp_relocalization'}
+[0.000377] (-) JobUnselected: {'identifier': 'terrain_analysis'}
+[0.000384] (-) JobUnselected: {'identifier': 'terrain_analysis_ext'}
+[0.000390] (-) JobUnselected: {'identifier': 'vision_msg'}
+[0.000399] (auto_aim_interfaces) JobQueued: {'identifier': 'auto_aim_interfaces', 'dependencies': OrderedDict()}
+[0.000730] (auto_aim_interfaces) JobStarted: {'identifier': 'auto_aim_interfaces'}
+[0.004609] (auto_aim_interfaces) JobProgress: {'identifier': 'auto_aim_interfaces', 'progress': 'cmake'}
+[0.004833] (auto_aim_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/home/rmsentry/ros_ws/src/auto_aim_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rmsentry/ros_ws/install/auto_aim_interfaces'], 'cwd': '/home/rmsentry/ros_ws/build/auto_aim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rmsentry'), ('SSH_CLIENT', '192.168.1.101 36994 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('BROWSER', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rmsentry'), ('OLDPWD', '/home/rmsentry/ros_ws'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46236e4b-89a5-4b8d-9617-296d552af456.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rmsentry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/home/rmsentry/.local/bin:/opt/ros/humble/bin:/home/rmsentry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b05d376ab5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/rmsentry/ros_ws/build/auto_aim_interfaces'), ('SSH_CONNECTION', '192.168.1.101 36994 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052393] (auto_aim_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089300] (auto_aim_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.096978] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099909] (-) TimerEvent: {}
+[0.136984] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.146675] (auto_aim_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146868] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147247] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.150010] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.195176] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.200018] (-) TimerEvent: {}
+[0.207333] (auto_aim_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.207596] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.207745] (auto_aim_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.209321] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.293696] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.300090] (-) TimerEvent: {}
+[0.335018] (auto_aim_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.373559] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.375693] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.380086] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400176] (-) TimerEvent: {}
+[0.431385] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.458013] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500268] (-) TimerEvent: {}
+[0.600456] (-) TimerEvent: {}
+[0.700634] (-) TimerEvent: {}
+[0.800769] (-) TimerEvent: {}
+[0.804003] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900889] (-) TimerEvent: {}
+[1.001041] (-) TimerEvent: {}
+[1.101264] (-) TimerEvent: {}
+[1.117668] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201445] (-) TimerEvent: {}
+[1.301707] (-) TimerEvent: {}
+[1.401874] (-) TimerEvent: {}
+[1.502036] (-) TimerEvent: {}
+[1.524928] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.526550] (auto_aim_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.526665] (auto_aim_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.526699] (auto_aim_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.526727] (auto_aim_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.526753] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.526777] (auto_aim_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.526801] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.526825] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.526848] (auto_aim_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.526870] (auto_aim_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.526893] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.540908] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[1.541884] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.542117] (auto_aim_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.542185] (auto_aim_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.542216] (auto_aim_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.542243] (auto_aim_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.542268] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.542292] (auto_aim_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.542316] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.542340] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.542363] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.542386] (auto_aim_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.542408] (auto_aim_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.542430] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.554842] (auto_aim_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.554919] (auto_aim_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.554951] (auto_aim_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.554977] (auto_aim_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.555001] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.555024] (auto_aim_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.555048] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.555071] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.555094] (auto_aim_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.555127] (auto_aim_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.555153] (auto_aim_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.555178] (auto_aim_interfaces) StderrLine: {'line': b'\n'}
+[1.559298] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[1.559364] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.559394] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.559419] (auto_aim_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.572368] (auto_aim_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[1.602133] (-) TimerEvent: {}
+[1.623252] (auto_aim_interfaces) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.652974] (auto_aim_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.660232] (auto_aim_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rmsentry/ros_ws/build/auto_aim_interfaces\n'}
+[1.667471] (auto_aim_interfaces) CommandEnded: {'returncode': 0}
+[1.667952] (auto_aim_interfaces) JobProgress: {'identifier': 'auto_aim_interfaces', 'progress': 'build'}
+[1.668409] (auto_aim_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/rmsentry/ros_ws/build/auto_aim_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/rmsentry/ros_ws/build/auto_aim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rmsentry'), ('SSH_CLIENT', '192.168.1.101 36994 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('BROWSER', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rmsentry'), ('OLDPWD', '/home/rmsentry/ros_ws'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46236e4b-89a5-4b8d-9617-296d552af456.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rmsentry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/home/rmsentry/.local/bin:/opt/ros/humble/bin:/home/rmsentry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b05d376ab5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/rmsentry/ros_ws/build/auto_aim_interfaces'), ('SSH_CONNECTION', '192.168.1.101 36994 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.683749] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[1.687137] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] Generating C++ code for ROS interfaces\n'}
+[1.688145] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_auto_aim_interfaces\n'}
+[1.702217] (-) TimerEvent: {}
+[1.802488] (-) TimerEvent: {}
+[1.825061] (auto_aim_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.825457] (auto_aim_interfaces) StdoutLine: {'line': b'creating auto_aim_interfaces.egg-info\n'}
+[1.825589] (auto_aim_interfaces) StdoutLine: {'line': b'writing auto_aim_interfaces.egg-info/PKG-INFO\n'}
+[1.825701] (auto_aim_interfaces) StdoutLine: {'line': b'writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt\n'}
+[1.825805] (auto_aim_interfaces) StdoutLine: {'line': b'writing top-level names to auto_aim_interfaces.egg-info/top_level.txt\n'}
+[1.825937] (auto_aim_interfaces) StdoutLine: {'line': b"writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[1.827182] (auto_aim_interfaces) StdoutLine: {'line': b"reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[1.827589] (auto_aim_interfaces) StdoutLine: {'line': b"writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[1.841716] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_auto_aim_interfaces_egg\n'}
+[1.902577] (-) TimerEvent: {}
+[2.002759] (-) TimerEvent: {}
+[2.082574] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] Built target auto_aim_interfaces__cpp\n'}
+[2.087499] (auto_aim_interfaces) StdoutLine: {'line': b'[  4%] Generating C++ introspection for ROS interfaces\n'}
+[2.087629] (auto_aim_interfaces) StdoutLine: {'line': b'[  4%] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.087669] (auto_aim_interfaces) StdoutLine: {'line': b'[  4%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.102850] (-) TimerEvent: {}
+[2.112349] (auto_aim_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o\n'}
+[2.112491] (auto_aim_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o\n'}
+[2.112547] (auto_aim_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o\n'}
+[2.112589] (auto_aim_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o\n'}
+[2.112633] (auto_aim_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o\n'}
+[2.112677] (auto_aim_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o\n'}
+[2.112836] (auto_aim_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o\n'}
+[2.113468] (auto_aim_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/gimbal_cmd__functions.c.o\n'}
+[2.113803] (auto_aim_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o\n'}
+[2.153512] (auto_aim_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/measurement__functions.c.o\n'}
+[2.181127] (auto_aim_interfaces) StdoutLine: {'line': b'[ 15%] Linking C shared library libauto_aim_interfaces__rosidl_generator_c.so\n'}
+[2.200071] (auto_aim_interfaces) StdoutLine: {'line': b'[ 15%] Built target auto_aim_interfaces__rosidl_generator_c\n'}
+[2.202927] (-) TimerEvent: {}
+[2.203903] (auto_aim_interfaces) StdoutLine: {'line': b'[ 17%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.204028] (auto_aim_interfaces) StdoutLine: {'line': b'[ 17%] Generating C introspection for ROS interfaces\n'}
+[2.204695] (auto_aim_interfaces) StdoutLine: {'line': b'[ 18%] Generating C type support dispatch for ROS interfaces\n'}
+[2.303027] (-) TimerEvent: {}
+[2.394059] (auto_aim_interfaces) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o\n'}
+[2.394216] (auto_aim_interfaces) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o\n'}
+[2.394757] (auto_aim_interfaces) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o\n'}
+[2.394849] (auto_aim_interfaces) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o\n'}
+[2.394906] (auto_aim_interfaces) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o\n'}
+[2.394950] (auto_aim_interfaces) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o\n'}
+[2.395103] (auto_aim_interfaces) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o\n'}
+[2.404159] (-) TimerEvent: {}
+[2.504289] (-) TimerEvent: {}
+[2.517788] (auto_aim_interfaces) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o\n'}
+[2.594682] (auto_aim_interfaces) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o\n'}
+[2.604384] (-) TimerEvent: {}
+[2.626991] (auto_aim_interfaces) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o\n'}
+[2.632815] (auto_aim_interfaces) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o\n'}
+[2.659346] (auto_aim_interfaces) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o\n'}
+[2.667897] (auto_aim_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o\n'}
+[2.671358] (auto_aim_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o\n'}
+[2.684259] (auto_aim_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o\n'}
+[2.684404] (auto_aim_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o\n'}
+[2.684895] (auto_aim_interfaces) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o\n'}
+[2.692567] (auto_aim_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o\n'}
+[2.704537] (-) TimerEvent: {}
+[2.707989] (auto_aim_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o\n'}
+[2.711799] (auto_aim_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o\n'}
+[2.713675] (auto_aim_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o\n'}
+[2.713808] (auto_aim_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/gimbal_cmd__type_support.cpp.o\n'}
+[2.740145] (auto_aim_interfaces) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o\n'}
+[2.773934] (auto_aim_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o\n'}
+[2.804642] (-) TimerEvent: {}
+[2.809148] (auto_aim_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/gimbal_cmd__type_support.cpp.o\n'}
+[2.815725] (auto_aim_interfaces) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o\n'}
+[2.834850] (auto_aim_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/measurement__type_support.cpp.o\n'}
+[2.853851] (auto_aim_interfaces) StdoutLine: {'line': b'[ 44%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o\n'}
+[2.872891] (auto_aim_interfaces) StdoutLine: {'line': b'[ 45%] Linking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so\n'}
+[2.873051] (auto_aim_interfaces) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o\n'}
+[2.892975] (auto_aim_interfaces) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o\n'}
+[2.904751] (-) TimerEvent: {}
+[2.917372] (auto_aim_interfaces) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o\n'}
+[2.918923] (auto_aim_interfaces) StdoutLine: {'line': b'[ 48%] Built target auto_aim_interfaces__rosidl_typesupport_c\n'}
+[2.925959] (auto_aim_interfaces) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o\n'}
+[2.938532] (auto_aim_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/measurement__type_support.cpp.o\n'}
+[2.959072] (auto_aim_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o\n'}
+[2.962612] (auto_aim_interfaces) StdoutLine: {'line': b'[ 52%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o\n'}
+[2.967514] (auto_aim_interfaces) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o\n'}
+[2.999320] (auto_aim_interfaces) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o\n'}
+[3.001667] (auto_aim_interfaces) StdoutLine: {'line': b'[ 55%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o\n'}
+[3.004830] (-) TimerEvent: {}
+[3.040702] (auto_aim_interfaces) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o\n'}
+[3.041680] (auto_aim_interfaces) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o\n'}
+[3.072466] (auto_aim_interfaces) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.c.o\n'}
+[3.076183] (auto_aim_interfaces) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o\n'}
+[3.076876] (auto_aim_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o\n'}
+[3.103157] (auto_aim_interfaces) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/measurement__type_support.c.o\n'}
+[3.104912] (-) TimerEvent: {}
+[3.114948] (auto_aim_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o\n'}
+[3.139719] (auto_aim_interfaces) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o\n'}
+[3.142440] (auto_aim_interfaces) StdoutLine: {'line': b'[ 64%] Linking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.150575] (auto_aim_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o\n'}
+[3.173650] (auto_aim_interfaces) StdoutLine: {'line': b'[ 65%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.178366] (auto_aim_interfaces) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o\n'}
+[3.203608] (auto_aim_interfaces) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.205003] (-) TimerEvent: {}
+[3.234887] (auto_aim_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o\n'}
+[3.268408] (auto_aim_interfaces) StdoutLine: {'line': b'[ 68%] Built target auto_aim_interfaces__rosidl_typesupport_cpp\n'}
+[3.268663] (auto_aim_interfaces) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o\n'}
+[3.305118] (-) TimerEvent: {}
+[3.307520] (auto_aim_interfaces) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o\n'}
+[3.360586] (auto_aim_interfaces) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o\n'}
+[3.378217] (auto_aim_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/measurement__type_support_c.cpp.o\n'}
+[3.407184] (auto_aim_interfaces) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o\n'}
+[3.407471] (-) TimerEvent: {}
+[3.433582] (auto_aim_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/measurement__type_support.cpp.o\n'}
+[3.439809] (auto_aim_interfaces) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o\n'}
+[3.442774] (auto_aim_interfaces) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o\n'}
+[3.475526] (auto_aim_interfaces) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o\n'}
+[3.507585] (-) TimerEvent: {}
+[3.589041] (auto_aim_interfaces) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o\n'}
+[3.607694] (-) TimerEvent: {}
+[3.632967] (auto_aim_interfaces) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/measurement__type_support.cpp.o\n'}
+[3.707806] (-) TimerEvent: {}
+[3.723437] (auto_aim_interfaces) StdoutLine: {'line': b'[ 80%] Linking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.795987] (auto_aim_interfaces) StdoutLine: {'line': b'[ 80%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.807900] (-) TimerEvent: {}
+[3.823660] (auto_aim_interfaces) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.870829] (auto_aim_interfaces) StdoutLine: {'line': b'[ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.881362] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Linking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.908038] (-) TimerEvent: {}
+[3.926755] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.934179] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Built target auto_aim_interfaces\n'}
+[3.941855] (auto_aim_interfaces) StdoutLine: {'line': b'[ 83%] Generating Python code for ROS interfaces\n'}
+[4.008173] (-) TimerEvent: {}
+[4.108312] (-) TimerEvent: {}
+[4.208448] (-) TimerEvent: {}
+[4.308589] (-) TimerEvent: {}
+[4.408733] (-) TimerEvent: {}
+[4.508905] (-) TimerEvent: {}
+[4.557409] (auto_aim_interfaces) StdoutLine: {'line': b'[ 83%] Built target auto_aim_interfaces__py\n'}
+[4.564711] (auto_aim_interfaces) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o\n'}
+[4.564949] (auto_aim_interfaces) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o\n'}
+[4.565028] (auto_aim_interfaces) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o\n'}
+[4.565075] (auto_aim_interfaces) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o\n'}
+[4.565128] (auto_aim_interfaces) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o\n'}
+[4.565240] (auto_aim_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o\n'}
+[4.565940] (auto_aim_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o\n'}
+[4.566017] (auto_aim_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o\n'}
+[4.566069] (auto_aim_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_gimbal_cmd_s.c.o\n'}
+[4.566119] (auto_aim_interfaces) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_measurement_s.c.o\n'}
+[4.608954] (-) TimerEvent: {}
+[4.658149] (auto_aim_interfaces) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so\n'}
+[4.680787] (auto_aim_interfaces) StdoutLine: {'line': b'[ 94%] Built target auto_aim_interfaces__rosidl_generator_py\n'}
+[4.687606] (auto_aim_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[4.687710] (auto_aim_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[4.687742] (auto_aim_interfaces) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[4.709071] (-) TimerEvent: {}
+[4.757908] (auto_aim_interfaces) StdoutLine: {'line': b'[ 99%] Linking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.758022] (auto_aim_interfaces) StdoutLine: {'line': b'[ 99%] Linking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.758113] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.776586] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.776804] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.776845] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.781044] (auto_aim_interfaces) CommandEnded: {'returncode': 0}
+[4.781458] (auto_aim_interfaces) JobProgress: {'identifier': 'auto_aim_interfaces', 'progress': 'install'}
+[4.783872] (auto_aim_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/rmsentry/ros_ws/build/auto_aim_interfaces'], 'cwd': '/home/rmsentry/ros_ws/build/auto_aim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'rmsentry'), ('SSH_CLIENT', '192.168.1.101 36994 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('BROWSER', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rmsentry'), ('OLDPWD', '/home/rmsentry/ros_ws'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46236e4b-89a5-4b8d-9617-296d552af456.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rmsentry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rmsentry/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rmsentry/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/home/rmsentry/.local/bin:/opt/ros/humble/bin:/home/rmsentry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b05d376ab5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/rmsentry/ros_ws/build/auto_aim_interfaces'), ('SSH_CONNECTION', '192.168.1.101 36994 192.168.1.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.786337] (auto_aim_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.786844] (auto_aim_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.786988] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces\n'}
+[4.789709] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h\n'}
+[4.791853] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h\n'}
+[4.793902] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h\n'}
+[4.795889] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h\n'}
+[4.798154] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h\n'}
+[4.800465] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h\n'}
+[4.802667] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h\n'}
+[4.804686] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h\n'}
+[4.806572] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h\n'}
+[4.808375] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h\n'}
+[4.809179] (-) TimerEvent: {}
+[4.810493] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h\n'}
+[4.812401] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h\n'}
+[4.814606] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h\n'}
+[4.817383] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h\n'}
+[4.820283] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h\n'}
+[4.822380] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h\n'}
+[4.824536] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h\n'}
+[4.826858] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h\n'}
+[4.829265] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h\n'}
+[4.831269] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h\n'}
+[4.833306] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h\n'}
+[4.835459] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h\n'}
+[4.837488] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h\n'}
+[4.839425] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h\n'}
+[4.841548] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__functions.h\n'}
+[4.843532] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__struct.h\n'}
+[4.845521] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.h\n'}
+[4.847706] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__functions.h\n'}
+[4.849835] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__struct.h\n'}
+[4.851957] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__type_support.h\n'}
+[4.853962] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h\n'}
+[4.856231] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h\n'}
+[4.858692] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h\n'}
+[4.861482] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h\n'}
+[4.863528] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h\n'}
+[4.865675] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h\n'}
+[4.867898] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/gimbal_cmd.h\n'}
+[4.870604] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/measurement.h\n'}
+[4.872795] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.874856] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h\n'}
+[4.876933] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h\n'}
+[4.879003] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh\n'}
+[4.881065] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv\n'}
+[4.883445] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[4.885473] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[4.887516] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h\n'}
+[4.889487] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h\n'}
+[4.891504] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h\n'}
+[4.893360] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h\n'}
+[4.895462] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[4.897772] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h\n'}
+[4.899796] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[4.902040] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.904556] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.906964] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[4.909082] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[4.909233] (-) TimerEvent: {}
+[4.911326] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h\n'}
+[4.913362] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h\n'}
+[4.915584] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h\n'}
+[4.917465] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h\n'}
+[4.919439] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h\n'}
+[4.921487] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_c.h\n'}
+[4.923455] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[4.925459] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h\n'}
+[4.927548] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.930242] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp\n'}
+[4.932232] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp\n'}
+[4.934283] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp\n'}
+[4.936929] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp\n'}
+[4.940637] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp\n'}
+[4.943003] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp\n'}
+[4.945259] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp\n'}
+[4.947370] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp\n'}
+[4.949497] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp\n'}
+[4.951606] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.hpp\n'}
+[4.953568] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp\n'}
+[4.955510] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp\n'}
+[4.957528] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp\n'}
+[4.959497] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.hpp\n'}
+[4.961434] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp\n'}
+[4.963455] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp\n'}
+[4.965390] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp\n'}
+[4.967366] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.hpp\n'}
+[4.969426] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp\n'}
+[4.971400] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp\n'}
+[4.973408] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp\n'}
+[4.975467] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.hpp\n'}
+[4.978074] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp\n'}
+[4.980939] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp\n'}
+[4.983043] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp\n'}
+[4.985247] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp\n'}
+[4.987693] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp\n'}
+[4.989911] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp\n'}
+[4.991973] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp\n'}
+[4.993898] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp\n'}
+[4.995966] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__builder.hpp\n'}
+[4.997969] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__struct.hpp\n'}
+[4.999984] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__traits.hpp\n'}
+[5.002068] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.hpp\n'}
+[5.003985] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__builder.hpp\n'}
+[5.005991] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__struct.hpp\n'}
+[5.008377] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__traits.hpp\n'}
+[5.009292] (-) TimerEvent: {}
+[5.010600] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__type_support.hpp\n'}
+[5.012788] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp\n'}
+[5.014858] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp\n'}
+[5.017430] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp\n'}
+[5.020109] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.hpp\n'}
+[5.022216] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp\n'}
+[5.024229] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp\n'}
+[5.026351] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp\n'}
+[5.028687] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.hpp\n'}
+[5.030905] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/gimbal_cmd.hpp\n'}
+[5.033023] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/measurement.hpp\n'}
+[5.035156] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.037132] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp\n'}
+[5.039206] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp\n'}
+[5.041597] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.043710] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.045797] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.047703] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.049580] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.051423] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.053325] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.055280] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.057478] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.059316] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.061257] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.063511] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.065408] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.067315] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.069370] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.071405] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.073307] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.075430] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.077962] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.080182] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.082281] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.084270] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh\n'}
+[5.086378] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv\n'}
+[5.088827] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.090779] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.092771] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.094821] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.097564] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py\n'}
+[5.100125] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.102263] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.104318] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.106330] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.108319] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.109351] (-) TimerEvent: {}
+[5.110301] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.112595] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so\n'}
+[5.114911] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py\n'}
+[5.117007] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py\n'}
+[5.119105] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c\n'}
+[5.121011] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py\n'}
+[5.123068] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c\n'}
+[5.125048] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py\n'}
+[5.126952] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c\n'}
+[5.128937] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py\n'}
+[5.130959] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c\n'}
+[5.132986] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py\n'}
+[5.135044] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c\n'}
+[5.137412] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py\n'}
+[5.140043] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c\n'}
+[5.142183] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd.py\n'}
+[5.144172] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd_s.c\n'}
+[5.146410] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_measurement.py\n'}
+[5.148914] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_measurement_s.c\n'}
+[5.151232] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py\n'}
+[5.153415] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c\n'}
+[5.155357] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py\n'}
+[5.157239] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c\n'}
+[5.159255] (auto_aim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.159368] (auto_aim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.159487] (auto_aim_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.159583] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl\n'}
+[5.161877] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl\n'}
+[5.163779] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl\n'}
+[5.165949] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl\n'}
+[5.168108] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl\n'}
+[5.170213] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl\n'}
+[5.172176] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl\n'}
+[5.174232] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl\n'}
+[5.176359] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/GimbalCmd.idl\n'}
+[5.178657] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Measurement.idl\n'}
+[5.181031] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg\n'}
+[5.183263] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg\n'}
+[5.185218] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg\n'}
+[5.187324] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg\n'}
+[5.189364] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg\n'}
+[5.191356] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg\n'}
+[5.193495] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg\n'}
+[5.195891] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg\n'}
+[5.198237] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/GimbalCmd.msg\n'}
+[5.200334] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Measurement.msg\n'}
+[5.202397] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces\n'}
+[5.204531] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces\n'}
+[5.206675] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh\n'}
+[5.208893] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.209449] (-) TimerEvent: {}
+[5.211004] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh\n'}
+[5.213004] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv\n'}
+[5.215437] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash\n'}
+[5.218426] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh\n'}
+[5.220719] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh\n'}
+[5.223848] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv\n'}
+[5.227394] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv\n'}
+[5.229941] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces\n'}
+[5.232310] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.234491] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.237064] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.239547] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.241850] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.243918] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.245926] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.247873] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake\n'}
+[5.249707] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake\n'}
+[5.251544] (auto_aim_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml\n'}
+[5.253537] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so\n'}
+[5.253732] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.253796] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.253934] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.253998] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.254112] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.254176] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so\n'}
+[5.254302] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.254368] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.254691] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.254765] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.254849] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.254901] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.255022] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.282219] (auto_aim_interfaces) StdoutLine: {'line': b"Listing '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...\n"}
+[5.282300] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...\n"}
+[5.282328] (auto_aim_interfaces) StdoutLine: {'line': b"Listing '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...\n"}
+[5.282352] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...\n"}
+[5.282376] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...\n"}
+[5.282399] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...\n"}
+[5.282420] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...\n"}
+[5.282441] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...\n"}
+[5.282462] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...\n"}
+[5.282484] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...\n"}
+[5.282505] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd.py'...\n"}
+[5.282525] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_measurement.py'...\n"}
+[5.282547] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...\n"}
+[5.282567] (auto_aim_interfaces) StdoutLine: {'line': b"Compiling '/home/rmsentry/ros_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...\n"}
+[5.285398] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so\n'}
+[5.285635] (auto_aim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.285685] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.285790] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.285824] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.285851] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.285903] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.285930] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.285986] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.286012] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.286060] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.286112] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.286160] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.286206] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.286250] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.286295] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.286349] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.286393] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.286437] (auto_aim_interfaces) StdoutLine: {'line': b'-- Installing: /home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.287344] (auto_aim_interfaces) CommandEnded: {'returncode': 0}
+[5.298583] (auto_aim_interfaces) JobEnded: {'identifier': 'auto_aim_interfaces', 'rc': 0}
+[5.299118] (-) EventReactorShutdown: {}

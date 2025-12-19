@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/src/rmoss_interfaces/msg/referee/GameStatus.msg

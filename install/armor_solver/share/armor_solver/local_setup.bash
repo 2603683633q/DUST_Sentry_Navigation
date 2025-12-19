@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/armor_solver/ament_cmake_environment_hooks/local_setup.bash

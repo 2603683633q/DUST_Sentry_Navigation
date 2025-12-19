@@ -1,0 +1,18 @@
+[0.724s] Invoking command in '/home/rmsentry/ros_ws/build/sdformat_tools': PYTHONPATH=/home/rmsentry/ros_ws/build/sdformat_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rmsentry/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rmsentry/ros_ws/build/sdformat_tools/build --no-deps symlink_data
+[0.960s] running develop
+[1.094s] running egg_info
+[1.094s] writing sdformat_tools.egg-info/PKG-INFO
+[1.094s] writing dependency_links to sdformat_tools.egg-info/dependency_links.txt
+[1.094s] writing entry points to sdformat_tools.egg-info/entry_points.txt
+[1.094s] writing requirements to sdformat_tools.egg-info/requires.txt
+[1.094s] writing top-level names to sdformat_tools.egg-info/top_level.txt
+[1.096s] reading manifest file 'sdformat_tools.egg-info/SOURCES.txt'
+[1.097s] writing manifest file 'sdformat_tools.egg-info/SOURCES.txt'
+[1.098s] running build_ext
+[1.098s] Creating /home/rmsentry/ros_ws/install/sdformat_tools/lib/python3.10/site-packages/sdformat-tools.egg-link (link to .)
+[1.099s] Installing sdf2urdf script to /home/rmsentry/ros_ws/install/sdformat_tools/bin
+[1.099s] Installing xmacro4sdf script to /home/rmsentry/ros_ws/install/sdformat_tools/bin
+[1.099s] 
+[1.099s] Installed /home/rmsentry/ros_ws/build/sdformat_tools
+[1.100s] running symlink_data
+[1.370s] Invoked command in '/home/rmsentry/ros_ws/build/sdformat_tools' returned '0': PYTHONPATH=/home/rmsentry/ros_ws/build/sdformat_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rmsentry/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rmsentry/ros_ws/build/sdformat_tools/build --no-deps symlink_data

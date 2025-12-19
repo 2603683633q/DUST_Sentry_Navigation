@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_decision_interfaces__py",
+		"source" : "/home/rmsentry/ros_ws/build/rm_decision_interfaces/rm_decision_interfaces__py"
+	}
+}

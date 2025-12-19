@@ -1,0 +1,284 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rmsentry/ros_ws/build/vision_msg
+CMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:37 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:37 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:37 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[  2%] Generating C code for ROS interfaces
+[  4%] Building C object CMakeFiles/vision_msg__rosidl_generator_c.dir/rosidl_generator_c/vision_msg/msg/detail/gimble_position__functions.c.o
+[  6%] Building C object CMakeFiles/vision_msg__rosidl_generator_c.dir/rosidl_generator_c/vision_msg/msg/detail/selected_id__functions.c.o
+[  8%] Building C object CMakeFiles/vision_msg__rosidl_generator_c.dir/rosidl_generator_c/vision_msg/msg/detail/detected_id__functions.c.o
+[ 10%] Linking C shared library libvision_msg__rosidl_generator_c.so
+[ 10%] Built target vision_msg__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_symlink_vision_msg
+[ 12%] Generating C type support for eProsima Fast-RTPS
+[ 14%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msg/msg/detail/gimble_position__type_support_c.cpp.o
+[ 17%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msg/msg/detail/selected_id__type_support_c.cpp.o
+[ 19%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msg/msg/detail/detected_id__type_support_c.cpp.o
+[ 21%] Linking CXX shared library libvision_msg__rosidl_typesupport_fastrtps_c.so
+[ 21%] Built target vision_msg__rosidl_typesupport_fastrtps_c
+running egg_info
+creating vision_msg.egg-info
+writing vision_msg.egg-info/PKG-INFO
+writing dependency_links to vision_msg.egg-info/dependency_links.txt
+writing top-level names to vision_msg.egg-info/top_level.txt
+writing manifest file 'vision_msg.egg-info/SOURCES.txt'
+reading manifest file 'vision_msg.egg-info/SOURCES.txt'
+writing manifest file 'vision_msg.egg-info/SOURCES.txt'
+[ 21%] Built target ament_cmake_python_build_vision_msg_egg
+[ 23%] Generating C type support dispatch for ROS interfaces
+[ 25%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msg/msg/gimble_position__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msg/msg/selected_id__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msg/msg/detected_id__type_support.cpp.o
+[ 31%] Linking CXX shared library libvision_msg__rosidl_typesupport_c.so
+[ 31%] Built target vision_msg__rosidl_typesupport_c
+[ 34%] Generating C introspection for ROS interfaces
+[ 36%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msg/msg/detail/gimble_position__type_support.c.o
+[ 38%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msg/msg/detail/selected_id__type_support.c.o
+[ 40%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msg/msg/detail/detected_id__type_support.c.o
+[ 42%] Linking C shared library libvision_msg__rosidl_typesupport_introspection_c.so
+[ 42%] Built target vision_msg__rosidl_typesupport_introspection_c
+[ 44%] Generating C++ code for ROS interfaces
+[ 44%] Built target vision_msg__cpp
+[ 46%] Generating C++ type support for eProsima Fast-RTPS
+[ 48%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msg/msg/detail/dds_fastrtps/gimble_position__type_support.cpp.o
+[ 51%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msg/msg/detail/dds_fastrtps/selected_id__type_support.cpp.o
+[ 53%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msg/msg/detail/dds_fastrtps/detected_id__type_support.cpp.o
+[ 55%] Linking CXX shared library libvision_msg__rosidl_typesupport_fastrtps_cpp.so
+[ 55%] Built target vision_msg__rosidl_typesupport_fastrtps_cpp
+[ 57%] Generating C++ type support dispatch for ROS interfaces
+[ 59%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msg/msg/gimble_position__type_support.cpp.o
+[ 61%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msg/msg/selected_id__type_support.cpp.o
+[ 63%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msg/msg/detected_id__type_support.cpp.o
+[ 65%] Linking CXX shared library libvision_msg__rosidl_typesupport_cpp.so
+[ 65%] Built target vision_msg__rosidl_typesupport_cpp
+[ 68%] Generating C++ introspection for ROS interfaces
+[ 70%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msg/msg/detail/gimble_position__type_support.cpp.o
+[ 72%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msg/msg/detail/selected_id__type_support.cpp.o
+[ 74%] Building CXX object CMakeFiles/vision_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msg/msg/detail/detected_id__type_support.cpp.o
+[ 76%] Linking CXX shared library libvision_msg__rosidl_typesupport_introspection_cpp.so
+[ 76%] Built target vision_msg__rosidl_typesupport_introspection_cpp
+[ 76%] Built target vision_msg
+[ 78%] Generating Python code for ROS interfaces
+[ 78%] Built target vision_msg__py
+[ 80%] Building C object CMakeFiles/vision_msg__rosidl_generator_py.dir/rosidl_generator_py/vision_msg/msg/_gimble_position_s.c.o
+[ 82%] Building C object CMakeFiles/vision_msg__rosidl_generator_py.dir/rosidl_generator_py/vision_msg/msg/_selected_id_s.c.o
+[ 85%] Building C object CMakeFiles/vision_msg__rosidl_generator_py.dir/rosidl_generator_py/vision_msg/msg/_detected_id_s.c.o
+[ 87%] Linking C shared library rosidl_generator_py/vision_msg/libvision_msg__rosidl_generator_py.so
+[ 87%] Built target vision_msg__rosidl_generator_py
+[ 89%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vision_msg/_vision_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 91%] Linking C shared library rosidl_generator_py/vision_msg/vision_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[ 91%] Built target vision_msg__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vision_msg/_vision_msg_s.ep.rosidl_typesupport_c.c.o
+[ 95%] Linking C shared library rosidl_generator_py/vision_msg/vision_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[ 95%] Built target vision_msg__rosidl_typesupport_c__pyext
+[ 97%] Building C object CMakeFiles/vision_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vision_msg/_vision_msg_s.ep.rosidl_typesupport_introspection_c.c.o
+[100%] Linking C shared library rosidl_generator_py/vision_msg/vision_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target vision_msg__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/ament_index/resource_index/rosidl_interfaces/vision_msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__functions.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__struct.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__type_support.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__functions.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__struct.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__type_support.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__functions.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__struct.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__type_support.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detected_id.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/gimble_position.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/selected_id.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/library_path.sh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/library_path.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__builder.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__struct.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__traits.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__type_support.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__builder.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__struct.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__traits.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__type_support.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__builder.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__struct.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__traits.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__type_support.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detected_id.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/gimble_position.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/selected_id.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/detected_id__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/gimble_position__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/include/vision_msg/vision_msg/msg/detail/selected_id__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/pythonpath.sh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/pythonpath.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/__init__.py
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/_vision_msg_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/_vision_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/_vision_msg_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/libvision_msg__rosidl_generator_py.so
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/__init__.py
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_detected_id.py
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_detected_id_s.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_gimble_position.py
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_gimble_position_s.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_selected_id.py
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_selected_id_s.c
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/vision_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/GimblePosition.idl
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/DetectedId.idl
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/SelectedId.idl
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/GimblePosition.msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/DetectedId.msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/msg/SelectedId.msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/ament_index/resource_index/package_run_dependencies/vision_msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/ament_index/resource_index/parent_prefix_path/vision_msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/ament_prefix_path.sh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/path.sh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/environment/path.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/local_setup.bash
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/local_setup.sh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/local_setup.zsh
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/local_setup.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/package.dsv
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/ament_index/resource_index/packages/vision_msg
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msgConfig.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msgConfig-version.cmake
+-- Symlinking: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/package.xml
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_generator_c.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_c.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_typesupport_cpp.so" to ""
+Listing '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg'...
+Compiling '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/__init__.py'...
+Listing '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg'...
+Compiling '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/__init__.py'...
+Compiling '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_detected_id.py'...
+Compiling '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_gimble_position.py'...
+Compiling '/home/rmsentry/ros_ws/install/vision_msg/local/lib/python3.10/dist-packages/vision_msg/msg/_selected_id.py'...
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/rmsentry/ros_ws/install/vision_msg/lib/libvision_msg__rosidl_generator_py.so" to ""
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_generator_cExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_cExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_generator_cppExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/vision_msg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_generator_pyExport.cmake
+-- Installing: /home/rmsentry/ros_ws/install/vision_msg/share/vision_msg/cmake/export_vision_msg__rosidl_generator_pyExport-noconfig.cmake

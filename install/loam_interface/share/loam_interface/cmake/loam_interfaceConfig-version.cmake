@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/loam_interface/ament_cmake_core/loam_interfaceConfig-version.cmake

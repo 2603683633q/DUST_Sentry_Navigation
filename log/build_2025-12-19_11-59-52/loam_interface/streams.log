@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/home/rmsentry/ros_ws/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/loam_interface -- -j12 -l12
+[0.283s] [ 50%] Built target loam_interface_node
+[0.283s] [100%] Built target loam_interface
+[0.295s] Invoked command in '/home/rmsentry/ros_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/loam_interface -- -j12 -l12
+[0.296s] Invoking command in '/home/rmsentry/ros_ws/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/loam_interface
+[0.349s] -- Install configuration: ""
+[0.350s] -- Execute custom install script
+[0.350s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/lib/loam_interface/loam_interface_node
+[0.350s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/include/loam_interface/loam_interface/loam_interface.hpp
+[0.350s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/library_path.sh
+[0.350s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/library_path.dsv
+[0.350s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/lib/libloam_interface.so
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/launch/loam_interface_launch.py
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/path.sh
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/environment/path.dsv
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/local_setup.bash
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/local_setup.sh
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/local_setup.zsh
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/local_setup.dsv
+[0.351s] -- Symlinking: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/package.dsv
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/ament_index/resource_index/rclcpp_components/loam_interface
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.351s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.352s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.352s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[0.352s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[0.352s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/loam_interface/share/loam_interface/package.xml
+[0.389s] Invoked command in '/home/rmsentry/ros_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/loam_interface

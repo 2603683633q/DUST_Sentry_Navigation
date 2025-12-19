@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_interfaces/rosidl_generator_c/rmoss_interfaces/msg/detail/gimbal__struct.h

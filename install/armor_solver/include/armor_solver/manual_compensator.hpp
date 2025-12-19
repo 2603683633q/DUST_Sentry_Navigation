@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/src/rm_auto_aim/armor_solver/include/armor_solver/manual_compensator.hpp

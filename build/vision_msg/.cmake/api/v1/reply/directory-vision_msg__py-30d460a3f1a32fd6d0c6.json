@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vision_msg__py",
+		"source" : "/home/rmsentry/ros_ws/build/vision_msg/vision_msg__py"
+	}
+}

@@ -1,0 +1,86 @@
+[0.091s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/small_gicp_relocalization -- -j12 -l12
+[0.122s] [ 42%] Built target small_gicp
+[0.128s] [ 71%] Built target small_gicp_relocalization_node
+[0.157s] [100%] Built target small_gicp_relocalization
+[0.215s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --build /home/rmsentry/ros_ws/build/small_gicp_relocalization -- -j12 -l12
+[0.218s] Invoking command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/small_gicp_relocalization
+[0.247s] -- Install configuration: "Release"
+[0.247s] -- Execute custom install script
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/flat_container.hpp
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/gaussian_voxelmap.hpp
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/incremental_voxelmap.hpp
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree.hpp
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree_omp.hpp
+[0.247s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/kdtree_tbb.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/knn_result.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/projection.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/projective_search.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/sequential_voxelmap_accessor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/ann/traits.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/benchmark.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/benchmark_odom.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/benchmark/read_points.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/general_factor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/gicp_factor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/icp_factor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/plane_icp_factor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/factors/robust_kernel.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_point.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_point_traits.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_proxy.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_registration.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/pcl/pcl_registration_impl.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/eigen.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/point_cloud.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/points/traits.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/optimizer.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction_omp.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/reduction_tbb.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration_helper.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/registration_result.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/rejector.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/registration/termination_criteria.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling_omp.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/downsampling_tbb.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/fast_floor.hpp
+[0.248s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/lie.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation_omp.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/normal_estimation_tbb.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/sort_omp.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/sort_tbb.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp/util/vector3i_hash.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-config.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-config-version.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/small_gicp_relocalization/small_gicp_relocalization_node
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/include/small_gicp_relocalization/small_gicp_relocalization/small_gicp_relocalization.hpp
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.sh
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.dsv
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/libsmall_gicp_relocalization.so
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/small_gicp_relocalization_launch.py
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+[0.249s] -- Symlinking: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/rclcpp_components/small_gicp_relocalization
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_libraries-extras.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+[0.249s] -- Up-to-date symlink: /home/rmsentry/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml
+[0.249s] -- Up-to-date: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/libsmall_gicp.so
+[0.249s] -- Up-to-date: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-targets.cmake
+[0.250s] -- Up-to-date: /home/rmsentry/ros_ws/install/small_gicp_relocalization/lib/cmake/small_gicp/small_gicp-targets-release.cmake
+[0.275s] Invoked command in '/home/rmsentry/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmsentry/ros_ws/install/sdformat_tools:/home/rmsentry/ros_ws/install/rm_decision:/home/rmsentry/ros_ws/install/fake_msg_publisher:/opt/ros/humble /usr/local/bin/cmake --install /home/rmsentry/ros_ws/build/small_gicp_relocalization

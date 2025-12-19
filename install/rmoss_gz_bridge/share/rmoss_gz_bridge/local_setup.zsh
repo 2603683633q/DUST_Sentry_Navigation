@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_gz_bridge/ament_cmake_environment_hooks/local_setup.zsh

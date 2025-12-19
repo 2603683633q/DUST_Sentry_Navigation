@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/rmsentry/ros_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh"
+. "/home/rmsentry/ros_ws/install/rm_decision_interfaces/share/rm_decision_interfaces/package.sh"

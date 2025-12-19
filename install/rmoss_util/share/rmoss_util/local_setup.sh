@@ -1,0 +1,1 @@
+/home/rmsentry/ros_ws/build/rmoss_util/ament_cmake_environment_hooks/local_setup.sh
